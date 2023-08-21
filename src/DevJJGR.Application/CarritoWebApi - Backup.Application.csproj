@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevJJGR.Domain\Donas.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Articles\" />
+    <None Remove="Articles\Commands\" />
+    <None Remove="Articles\Queries\" />
+    <None Remove="ArticleCategories\" />
+    <None Remove="ArticleCategories\Queries\" />
+    <None Remove="ArticleCategories\Command\" />
+    <None Remove="ArticleCategories\Queries\GetAll\" />
+    <None Remove="ArticleCategories\Queries\GetById\" />
+    <None Remove="ArticleCategories\Command\Create\" />
+    <None Remove="ArticleCategories\Command\Update\" />
+    <None Remove="ArticleCategories\Command\Delete\" />
+    <None Remove="Articles\Queries\GetAll\" />
+    <None Remove="Articles\Queries\GetById\" />
+    <None Remove="Articles\Commands\Create\" />
+    <None Remove="Articles\Commands\Update\" />
+    <None Remove="Articles\Commands\Delete\" />
+    <None Remove="Security\" />
+    <None Remove="Security\Users\" />
+    <None Remove="Security\Roles\" />
+    <None Remove="Security\Users\Command\" />
+    <None Remove="Security\Users\Queries\" />
+    <None Remove="Security\Users\Queries\GetAll\" />
+    <None Remove="Security\Users\Queries\GetById\" />
+    <None Remove="Dto\Security\" />
+    <None Remove="Security\Users\Command\Create\" />
+    <None Remove="Security\Users\Command\Update\" />
+    <None Remove="Security\Users\Command\Delete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Articles\" />
+    <Folder Include="Articles\Commands\" />
+    <Folder Include="Articles\Queries\" />
+    <Folder Include="ArticleCategories\" />
+    <Folder Include="ArticleCategories\Queries\" />
+    <Folder Include="ArticleCategories\Command\" />
+    <Folder Include="ArticleCategories\Queries\GetAll\" />
+    <Folder Include="ArticleCategories\Queries\GetById\" />
+    <Folder Include="ArticleCategories\Command\Create\" />
+    <Folder Include="ArticleCategories\Command\Update\" />
+    <Folder Include="ArticleCategories\Command\Delete\" />
+    <Folder Include="Articles\Queries\GetAll\" />
+    <Folder Include="Articles\Queries\GetById\" />
+    <Folder Include="Articles\Commands\Create\" />
+    <Folder Include="Articles\Commands\Update\" />
+    <Folder Include="Articles\Commands\Delete\" />
+    <Folder Include="Security\" />
+    <Folder Include="Security\Users\" />
+    <Folder Include="Security\Roles\" />
+    <Folder Include="Security\Users\Command\" />
+    <Folder Include="Security\Users\Queries\" />
+    <Folder Include="Security\Users\Queries\GetAll\" />
+    <Folder Include="Security\Users\Queries\GetById\" />
+    <Folder Include="Dto\Security\" />
+    <Folder Include="Security\Users\Command\Create\" />
+    <Folder Include="Security\Users\Command\Update\" />
+    <Folder Include="Security\Users\Command\Delete\" />
+  </ItemGroup>
+</Project>

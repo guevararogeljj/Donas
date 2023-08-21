@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p><a href="@Url.Action("Login", "Login")">Iniciar sesion</a></p>
+    <p><a href="@Url.Action("Privacy", "Home")">Ir a a la consulta por todos</a></p>
+</div>
+@section Scripts {
+    <environment names="Development,Staging,Production">
+        <script src="~/js/demo.min.js"></script>
+        <script src="~/js/apps.min.js"></script>
+
+    </environment>
+
+    <script>
+        $(document).ready(function () {
+            App.init();
+            Demo.init();
+        });
+    </script>
+    }

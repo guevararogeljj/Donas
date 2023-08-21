@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CarritoWebApi.Presentation.props" />
+</Project>

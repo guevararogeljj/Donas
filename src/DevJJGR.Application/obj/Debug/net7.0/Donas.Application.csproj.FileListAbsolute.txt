@@ -1,0 +1,17 @@
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\bin\Debug\net7.0\Donas.Application.deps.json
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\bin\Debug\net7.0\Donas.Application.runtimeconfig.json
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\bin\Debug\net7.0\Donas.Application.dll
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\bin\Debug\net7.0\Donas.Application.pdb
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\bin\Debug\net7.0\Donas.Domain.dll
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\bin\Debug\net7.0\Donas.Domain.pdb
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.csproj.AssemblyReference.cache
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.AssemblyInfoInputs.cache
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.AssemblyInfo.cs
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.csproj.CoreCompileInputs.cache
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.csproj.CopyComplete
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.dll
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\refint\Donas.Application.dll
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.pdb
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\Donas.Application.genruntimeconfig.cache
+C:\Users\INTECH\source\repos\Donas\src\DevJJGR.Application\obj\Debug\net7.0\ref\Donas.Application.dll

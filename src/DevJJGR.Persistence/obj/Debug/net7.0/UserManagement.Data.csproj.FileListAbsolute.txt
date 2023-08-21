@@ -1,0 +1,14 @@
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\bin\Debug\net7.0\UserManagement.Data.deps.json
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\bin\Debug\net7.0\UserManagement.Data.runtimeconfig.json
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\bin\Debug\net7.0\UserManagement.Data.dll
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\bin\Debug\net7.0\UserManagement.Data.pdb
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.csproj.AssemblyReference.cache
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.AssemblyInfoInputs.cache
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.AssemblyInfo.cs
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.dll
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\refint\UserManagement.Data.dll
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.pdb
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\UserManagement.Data.genruntimeconfig.cache
+C:\Users\INTECH\Desktop\API.UserManagement-main\UserManagement.Data\obj\Debug\net7.0\ref\UserManagement.Data.dll
