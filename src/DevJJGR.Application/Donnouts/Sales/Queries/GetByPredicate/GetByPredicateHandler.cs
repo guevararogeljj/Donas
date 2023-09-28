@@ -32,7 +32,7 @@ namespace Donouts.Application.Donnouts.Sales.Queries.GetByPredicate
             var responseDto = new ResponseDto<List<SalesDonoutsDTO>>();
             try
             {
-                Expression<Func<SalesDonouts, bool>>? predicate = null;
+                Expression<Func<Domain.Entities.Donouts.SalesDonouts, bool>>? predicate = null;
                 predicate = x => x.TypeDonouts.Id.Equals(request.TypeDonoutId) 
                 && x.Amount > 10;
                 var sales = await _salesDonoutsRepository.GetAllByPredicateAsync(predicate);

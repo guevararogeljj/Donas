@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Donouts.Application.Dto.Security;
+using Donouts.Domain.Entities;
 using DonoutsCore.Common.Models;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -10,10 +11,10 @@ namespace Donouts.Application.Security.Roles.Queries.GetById
 {
     public class GetByIdRoleHandler : IRequestHandler<GetByIdRole, ResponseDto<RoleDTO>>
     {
-        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly RoleManager<ApplicationRole> _roleManager;
         private readonly IMapper _mapper;
         private readonly ILogger<GetByIdRoleHandler> _logger;
-        public GetByIdRoleHandler(RoleManager<IdentityRole> roleManager, IMapper mapper, ILogger<GetByIdRoleHandler> logger)
+        public GetByIdRoleHandler(RoleManager<ApplicationRole> roleManager, IMapper mapper, ILogger<GetByIdRoleHandler> logger)
         {
             this._roleManager = roleManager;
             this._mapper = mapper;

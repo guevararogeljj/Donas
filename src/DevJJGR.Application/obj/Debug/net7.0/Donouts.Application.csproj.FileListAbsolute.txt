@@ -1,0 +1,34 @@
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.deps.json
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.runtimeconfig.json
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Domain.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Domain.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.csproj.AssemblyReference.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.AssemblyInfoInputs.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.AssemblyInfo.cs
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.csproj.CoreCompileInputs.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.csproj.CopyComplete
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/refint/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.genruntimeconfig.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/ref/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.deps.json
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.runtimeconfig.json
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Application.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Domain.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/bin/Debug/net7.0/Donouts.Domain.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.csproj.AssemblyReference.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.AssemblyInfoInputs.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.AssemblyInfo.cs
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.csproj.CoreCompileInputs.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.csproj.CopyComplete
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/refint/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/Donouts.Application.genruntimeconfig.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/obj/Debug/net7.0/ref/Donouts.Application.dll

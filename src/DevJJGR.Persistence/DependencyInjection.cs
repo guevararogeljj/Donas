@@ -2,6 +2,8 @@
 using Donouts.Application.Common.Interfaces;
 using Donouts.Application.Mappings;
 using Donouts.Infrastructure.Services;
+using Donouts.Persistance.Repository.Activities;
+using Donouts.Persistance.Repository.Appointment;
 using Donouts.Persistance.Repository.Donouts;
 using Donouts.Persistance.Repository.Security.Auth;
 using Donouts.Persistence.Common;
@@ -20,11 +22,12 @@ namespace Donouts.Persistance
 
             services.AddScoped(provider => new MapperConfiguration(x =>
             {
-
                 x.AddProfile(new UsersProfile());
                 x.AddProfile(new RoleProfile());
                 x.AddProfile(new TypeDonoutsProfile());
                 x.AddProfile(new SalesDonoutsProfile());
+                x.AddProfile(new ActivitiesProfile());
+                x.AddProfile(new CalendarioActividadesProfile());
             }).CreateMapper());
 
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
@@ -33,6 +36,8 @@ namespace Donouts.Persistance
             services.AddScoped<ICurrentUserService, CurrentUserService>();
             services.AddScoped<ITypeDonoutsRepository, TypeDonoutsRepository>();
             services.AddScoped<ISalesDonoutsRepository, SalesDonoutsRepository>();
+            services.AddScoped<IActivitiesRepository, ActivitiesRepository>();
+            services.AddScoped<ICalendarRepository, CalendarRepository>();
             return services;
         }
     }

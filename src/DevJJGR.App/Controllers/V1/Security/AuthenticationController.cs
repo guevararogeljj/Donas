@@ -21,20 +21,10 @@ namespace Donouts.Presentation.Controllers.V1.Security
         [Route("login")]
         public async Task<IActionResult> Login(LoginModel model)
         {
-            try
-            {
-                if (!ModelState.IsValid)
-                    return BadRequest("Datos no validos");
-                var (status, message) = await _authService.Login(model);
-                if (status == 0)
-                    return BadRequest(message);
-                return Ok(message);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex.Message);
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-            }
+            if (!ModelState.IsValid)
+                return BadRequest("Datos no validos");
+            var response = await _authService.Login(model);
+            return StatusCode((int)response.Code, response);
         }
     }
 }

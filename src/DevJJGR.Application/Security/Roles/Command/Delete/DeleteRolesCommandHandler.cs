@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Donouts.Application.utils;
+using Donouts.Domain.Entities;
 using DonoutsCore.Common.Models;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -9,10 +10,10 @@ namespace Donouts.Application.Security.Roles.Command.Delete
 {
     public class DeleteRolesCommandHandler : IRequestHandler<DeleteRolesCommand, ResponseDto<Boolean>>
     {
-        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly RoleManager<ApplicationRole> _roleManager;
         private readonly IMapper _mapper;
         private readonly ILogger<DeleteRolesCommandHandler> _logger;
-        public DeleteRolesCommandHandler(RoleManager<IdentityRole> roleManager, IMapper mapper, ILogger<DeleteRolesCommandHandler> logger)
+        public DeleteRolesCommandHandler(RoleManager<ApplicationRole> roleManager, IMapper mapper, ILogger<DeleteRolesCommandHandler> logger)
         {
             this._roleManager = roleManager;
             this._mapper = mapper;

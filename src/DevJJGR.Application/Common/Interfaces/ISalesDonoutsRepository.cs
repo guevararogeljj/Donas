@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Donouts.Application.Common.Interfaces
 {
-    public interface ISalesDonoutsRepository : IRepository<SalesDonouts>
+    public interface ISalesDonoutsRepository : IRepository<Domain.Entities.Donouts.SalesDonouts>
     {
         Task<IEnumerable<SalesDonoutsDTO>> GetAll();
         Task<IEnumerable<SalesDonoutsDTO>> GetAllByPredicateAsync(Expression<Func<Donouts.Domain.Entities.Donouts.SalesDonouts, bool>> predicate);
-        Task<SalesDonouts> GetById(Guid Id);
+        Task<Domain.Entities.Donouts.SalesDonouts> GetById(Guid Id);
     }
 }

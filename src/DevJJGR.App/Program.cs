@@ -27,21 +27,21 @@ builder.Services.AddValidatorsFromAssembly(Donouts.Application.AssemblyReference
 builder.Services.AddCors(x => x.AddPolicy("Policy", x =>
 {
     x.WithOrigins(
-      builder.Configuration.GetValue<string>("endpoints:webapp"),
-      builder.Configuration.GetValue<string>("endpoints:webapp2"),
-      builder.Configuration.GetValue<string>("endpoints:webapp3")
+      builder.Configuration.GetValue<string>("endpoints:webapp")!,
+      builder.Configuration.GetValue<string>("endpoints:webapp2")!,
+      builder.Configuration.GetValue<string>("endpoints:webapp3")!
      )
      .AllowAnyHeader()
      .AllowAnyMethod();
 }));
 
 
-string connectionString = builder.Configuration.GetConnectionString("Database");
+string connectionString = builder.Configuration.GetConnectionString("Database")!;
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     connectionString,
     x => x.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName).EnableRetryOnFailure()));
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 builder
@@ -81,7 +81,7 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = builder.Configuration["JWTKey:ValidAudience"],
         ValidIssuer = builder.Configuration["JWTKey:ValidIssuer"],
         ClockSkew = TimeSpan.Zero,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWTKey:Secret"]))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWTKey:Secret"]!))
     };
 });
 WebApplication app = builder.Build();

@@ -34,8 +34,8 @@ namespace Donouts.Application.Donnouts.Sales.Commands.Create
             try
             {
                 var objDb = new SalesDonouts();
-                var userName = this._currentUserService.UserName;
-                var user = await _userManager.FindByNameAsync(userName!);
+                var userId = this._currentUserService.userId;
+                var user = await _userManager.FindByIdAsync(userId!);
                 var typeDonouts = await _typeDonoutsRepository.GetById(request.TypeDonoutsId);
                 objDb.Name = "";
                 objDb.Visible = true;

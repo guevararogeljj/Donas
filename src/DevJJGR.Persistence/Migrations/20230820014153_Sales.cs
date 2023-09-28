@@ -29,7 +29,7 @@ namespace Donouts.Persistance.Migrations
                 name: "AspNetUsers",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<Guid>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "varchar(250)", nullable: false),
                     CreatedAt = table.Column<string>(type: "varchar(300)", nullable: false),
                     ModifiedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -119,7 +119,7 @@ namespace Donouts.Persistance.Migrations
                     LoginProvider = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ProviderKey = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ProviderDisplayName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    UserId = table.Column<Guid>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {

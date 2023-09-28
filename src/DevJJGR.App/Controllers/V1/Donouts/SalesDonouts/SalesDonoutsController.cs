@@ -2,12 +2,8 @@
 using Donouts.Application.Donnouts.Sales.Queries.GetAll;
 using Donouts.Application.Donnouts.Sales.Queries.GetById;
 using Donouts.Application.Donnouts.Sales.Queries.GetByPredicate;
-using Donouts.Application.Donnouts.Types.Commands.Create;
-using Donouts.Application.Donnouts.Types.Queries.GetAll;
-using Donouts.Application.Donnouts.Types.Queries.GetById;
 using Donouts.Application.Dto.Security;
 using Donouts.Controllers;
-using Donouts.Domain.Entities.Donouts;
 using DonoutsCore.Common.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

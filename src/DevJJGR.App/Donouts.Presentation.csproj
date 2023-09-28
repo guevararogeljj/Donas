@@ -39,4 +39,10 @@
   <ItemGroup>
     <None Remove="Controllers\V1\Security\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\.dockerignore">
+      <Link>.dockerignore</Link>
+    </Content>
+  </ItemGroup>
 </Project>

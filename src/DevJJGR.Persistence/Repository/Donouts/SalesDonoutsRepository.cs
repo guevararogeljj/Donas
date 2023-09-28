@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 
 namespace Donouts.Persistance.Repository.Donouts
 {
-    public class SalesDonoutsRepository : Repository<SalesDonouts>, ISalesDonoutsRepository
+    public class SalesDonoutsRepository : Repository<Domain.Entities.Donouts.SalesDonouts>, ISalesDonoutsRepository
     {
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
@@ -28,7 +28,7 @@ namespace Donouts.Persistance.Repository.Donouts
                .ToListAsync();
         }
 
-        public async Task<IEnumerable<SalesDonoutsDTO>> GetAllByPredicateAsync(Expression<Func<SalesDonouts, bool>> predicate)
+        public async Task<IEnumerable<SalesDonoutsDTO>> GetAllByPredicateAsync(Expression<Func<Domain.Entities.Donouts.SalesDonouts, bool>> predicate)
         {
             return await this._mapper.ProjectTo<SalesDonoutsDTO>(this._context.SalesDonouts
                   .Where(predicate)
@@ -37,7 +37,7 @@ namespace Donouts.Persistance.Repository.Donouts
                   .ToListAsync();
         }
 
-        public async Task<SalesDonouts> GetById(Guid Id)
+        public async Task<Domain.Entities.Donouts.SalesDonouts> GetById(Guid Id)
         {
             return await this._context.SalesDonouts
                 .Include(x => x.TypeDonouts)

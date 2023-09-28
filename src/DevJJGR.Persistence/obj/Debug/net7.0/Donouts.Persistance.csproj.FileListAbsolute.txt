@@ -1,0 +1,42 @@
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.deps.json
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.runtimeconfig.json
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Domain.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Infrastructure.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Application.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Domain.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Infrastructure.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.csproj.AssemblyReference.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.AssemblyInfoInputs.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.AssemblyInfo.cs
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.csproj.CoreCompileInputs.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.csproj.CopyComplete
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/refint/Donouts.Persistance.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.pdb
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.genruntimeconfig.cache
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/ref/Donouts.Persistance.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.deps.json
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.runtimeconfig.json
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Persistance.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Application.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Domain.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Infrastructure.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Application.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Domain.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/bin/Debug/net7.0/Donouts.Infrastructure.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.csproj.AssemblyReference.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.AssemblyInfoInputs.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.AssemblyInfo.cs
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.csproj.CoreCompileInputs.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.csproj.CopyComplete
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/refint/Donouts.Persistance.dll
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.pdb
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/Donouts.Persistance.genruntimeconfig.cache
+/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Persistence/obj/Debug/net7.0/ref/Donouts.Persistance.dll

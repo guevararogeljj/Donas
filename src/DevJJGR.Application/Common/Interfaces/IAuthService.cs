@@ -1,4 +1,6 @@
-﻿using Donouts.Application.utils;
+﻿using Donouts.Application.Dto.Security;
+using Donouts.Application.utils;
+using DonoutsCore.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,6 @@ namespace Donouts.Application.Common.Interfaces
 {
     public interface IAuthService
     {
-        Task<(int, string)> Login(LoginModel model);
+        Task<ResponseDto<TokenResponseDTO>> Login(LoginModel model);
     }
 }

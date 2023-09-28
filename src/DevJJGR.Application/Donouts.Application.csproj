@@ -10,6 +10,19 @@
     <Compile Remove="Donouts\**" />
     <EmbeddedResource Remove="Donouts\**" />
     <None Remove="Donouts\**" />
+    <None Remove="Activities\Commands\Create\" />
+    <None Remove="Activities\Commands\Update\" />
+    <None Remove="Activities\Commands\Delete\" />
+    <None Remove="Dto\Calendar\" />
+    <None Remove="Calendar\" />
+    <None Remove="Calendar\Commands\" />
+    <None Remove="Calendar\Queries\" />
+    <None Remove="Calendar\Commands\Create\" />
+    <None Remove="Calendar\Commands\Update\" />
+    <None Remove="Calendar\Commands\Delete\" />
+    <None Remove="Calendar\Queries\GetAll\" />
+    <None Remove="Calendar\Queries\GetById\" />
+    <None Remove="Calendar\Queries\GetAssigned\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +37,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="LinqKitEFCore.Extension.AutoBuildPredicate" Version="0.5.18" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,10 +60,27 @@
     <None Remove="Security\Users\Command\Delete\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Activities\Commands\" />
+    <Folder Include="Activities\Queries\GetById\" />
+    <Folder Include="Activities\Queries\GetByPredicate\" />
     <Folder Include="Security\Users\Queries\" />
     <Folder Include="Security\Users\Queries\GetAll\" />
     <Folder Include="Security\Users\Queries\GetById\" />
     <Folder Include="Security\Users\Command\Create\" />
     <Folder Include="Security\Users\Command\Update\" />
+    <Folder Include="Activities\Commands\Create\" />
+    <Folder Include="Activities\Commands\Update\" />
+    <Folder Include="Activities\Commands\Delete\" />
+    <Folder Include="Dto\Calendar\" />
+    <Folder Include="Calendar\" />
+    <Folder Include="Calendar\Commands\" />
+    <Folder Include="Calendar\Queries\" />
+    <Folder Include="Calendar\Commands\Create\" />
+    <Folder Include="Calendar\Commands\Update\" />
+    <Folder Include="Calendar\Commands\Delete\" />
+    <Folder Include="Calendar\Queries\GetAll\" />
+    <Folder Include="Calendar\Queries\GetById\" />
+    <Folder Include="Calendar\Queries\GetByPredicate\" />
+    <Folder Include="Calendar\Queries\GetAssigned\" />
   </ItemGroup>
 </Project>

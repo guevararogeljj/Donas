@@ -13,11 +13,11 @@ namespace Donouts.Application.Mappings
     {
         public SalesDonoutsProfile()
         {
-            CreateMap<SalesDonouts, SalesDonoutsDTO>()
+            CreateMap<Domain.Entities.Donouts.SalesDonouts, SalesDonoutsDTO>()
             .ForMember(dto => dto.Id, ent => ent.MapFrom(prop => prop.Id))
             .ForMember(dto => dto.Name, ent => ent.MapFrom(prop => prop.Name))
-            .ForMember(dto => dto.User, ent => ent.MapFrom(prop => prop.User))
-            .ForMember(dto => dto.TypeDonouts, ent => ent.MapFrom(prop => prop.TypeDonouts))
+            .ForMember<Dto.Security.UsersDTO>(dto => dto.User, ent => ent.MapFrom(prop => prop.User))
+            .ForMember<TypeDonoutsDTO>(dto => dto.TypeDonouts, ent => ent.MapFrom(prop => prop.TypeDonouts))
             .ForMember(dto => dto.Amount, ent => ent.MapFrom(prop => prop.Amount))
             .ForMember(dto => dto.SaleDate, ent => ent.MapFrom(prop => prop.SaleDate));
         }

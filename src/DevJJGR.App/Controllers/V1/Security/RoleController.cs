@@ -4,18 +4,15 @@ using Donouts.Application.Security.Roles.Command.Delete;
 using Donouts.Application.Security.Roles.Command.Update;
 using Donouts.Application.Security.Roles.Queries.GetAll;
 using Donouts.Application.Security.Roles.Queries.GetById;
-using Donouts.Application.Security.Users.Command.Create;
-using Donouts.Application.Security.Users.Command.Delete;
-using Donouts.Application.Security.Users.Command.Update;
-using Donouts.Application.Security.Users.Queries.GetAll;
-using Donouts.Application.Security.Users.Queries.GetById;
 using Donouts.Controllers;
 using DonoutsCore.Common.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Donouts.Presentation.Controllers.V1.Security
 {
     [ApiVersion("1.0")]
+    [Authorize(Roles = "Admin")]
     public class RoleController : BaseApiController
     {
         [HttpGet("GetAll")]

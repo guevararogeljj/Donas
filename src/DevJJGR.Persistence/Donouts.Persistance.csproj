@@ -17,12 +17,20 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DevJJGR.Application\Donouts.Application.csproj" />
-    <ProjectReference Include="..\DevJJGR.Domain\Donouts.Domain.csproj" />
     <ProjectReference Include="..\DevJJGR.Infrastructure\Donouts.Infrastructure.csproj" />
+    <ProjectReference Include="..\DevJJGR.Domain\Donouts.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Repository\Activities\" />
+    <Folder Include="Repository\Calendar\" />
+    <Folder Include="Repository\Security\Common\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Repository\Activities\" />
+    <None Remove="Repository\Calendar\" />
+    <None Remove="Repository\Security\Common\" />
+  </ItemGroup>
 </Project>

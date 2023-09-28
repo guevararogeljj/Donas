@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Donouts.Domain.Entities;
 using DonoutsCore.Common.Models;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -9,9 +10,9 @@ namespace Donouts.Application.Security.Roles.Command.Update
 {
     public class UpdateRolesCommandHandler : IRequestHandler<UpdateRolesCommand, ResponseDto<Boolean>>
     {
-        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly RoleManager<ApplicationRole> _roleManager;
         private readonly ILogger<UpdateRolesCommandHandler> _logger;
-        public UpdateRolesCommandHandler(RoleManager<IdentityRole> roleManager, ILogger<UpdateRolesCommandHandler> logger)
+        public UpdateRolesCommandHandler(RoleManager<ApplicationRole> roleManager, ILogger<UpdateRolesCommandHandler> logger)
         {
             this._roleManager = roleManager;
             this._logger = logger;

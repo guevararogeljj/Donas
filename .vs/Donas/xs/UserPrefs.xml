@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{1DF6C393-6E18-4477-A690-9B2E8D4E636B}|CarritoWebApi.App">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" relfile="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" line="31" column="1" />
+      <Breakpoint file="/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" relfile="src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Donouts.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs">
+    <Files>
+      <File FileName="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" />
+      <File FileName="src/DevJJGR.App/Controllers/V1/Calendar/CalendarController.cs" />
+      <File FileName="src/DevJJGR.App/Controllers/V1/Security/UserController.cs" />
+      <File FileName="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssigned.cs" />
+      <File FileName="src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" />
+      <File FileName="src/DevJJGR.App/Controllers/V1/Security/AuthenticationController.cs" />
+      <File FileName="src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" Line="51" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Donas">
+            <Node name="src" expanded="True">
+              <Node name="Donouts.Application" expanded="True">
+                <Node name="Calendar" expanded="True">
+                  <Node name="Queries" expanded="True">
+                    <Node name="GetAssigned" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Donouts.Infrastructure" expanded="True">
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Donouts.Persistance" expanded="True">
+                <Node name="Repository" expanded="True">
+                  <Node name="Security" expanded="True">
+                    <Node name="Auth" expanded="True" />
+                    <Node name="Common" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

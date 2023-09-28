@@ -13,11 +13,11 @@ namespace Donouts.Application.Security.Users.Command.Create
 	public class CreateUsersCommandHandler : IRequestHandler<CreateUsersCommand, ResponseDto<Boolean>>
 	{
         private readonly Microsoft.AspNetCore.Identity.UserManager<ApplicationUser> _userManager;
-        private readonly Microsoft.AspNetCore.Identity.RoleManager<IdentityRole> _roleManager;
+        private readonly Microsoft.AspNetCore.Identity.RoleManager<ApplicationRole> _roleManager;
         private readonly IMapper _mapper;
         private readonly ILogger<CreateUsersCommandHandler> _logger;
         public CreateUsersCommandHandler(Microsoft.AspNetCore.Identity.UserManager<ApplicationUser> userManager,
-         Microsoft.AspNetCore.Identity.RoleManager<IdentityRole> roleManager,IMapper mapper, ILogger<CreateUsersCommandHandler> logger)
+         Microsoft.AspNetCore.Identity.RoleManager<ApplicationRole> roleManager,IMapper mapper, ILogger<CreateUsersCommandHandler> logger)
 		{
             this._userManager = userManager;
             this._roleManager = roleManager;

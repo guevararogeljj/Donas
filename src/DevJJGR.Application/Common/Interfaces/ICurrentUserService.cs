@@ -8,7 +8,8 @@ namespace Donouts.Application.Common.Interfaces
 {
     public interface ICurrentUserService
     {
-        string UserName { get; }
+        string userId { get; }
+
         bool IsAuthenticated { get; }
     }
 }

@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS8629: Un tipo que acepta valores NULL puede ser nulo.
+dotnet_diagnostic.CS8629.severity = suggestion
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = suggestion

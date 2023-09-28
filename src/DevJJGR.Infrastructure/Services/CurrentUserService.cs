@@ -19,9 +19,9 @@ namespace Donouts.Infrastructure.Services
             _configuration = configuration;
         }
 
-        public string UserName => this._httpContextAccessor.HttpContext.User.Identity.Name;
+        public string userId => this._httpContextAccessor.HttpContext.User.FindFirst("user_id")!.Value;
 
-        public bool IsAuthenticated => this._httpContextAccessor.HttpContext.User.Identity.IsAuthenticated;
+        public bool IsAuthenticated => this._httpContextAccessor.HttpContext.User.Identity!.IsAuthenticated;
 
         public string GetClaimByType(string type)
         {

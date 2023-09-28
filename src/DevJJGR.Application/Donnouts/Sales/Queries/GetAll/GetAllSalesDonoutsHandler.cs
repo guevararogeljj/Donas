@@ -31,7 +31,6 @@ namespace Donouts.Application.Donnouts.Sales.Queries.GetAll
                 if (sales.Count() <= 0)
                 {
                     responseDto.SetStatusError("No hay registros", StatusCode.NO_CONTENT);
-
                     return responseDto;
                 }
                 var data = _mapper.Map<List<SalesDonoutsDTO>>(sales);
@@ -44,7 +43,6 @@ namespace Donouts.Application.Donnouts.Sales.Queries.GetAll
             {
                 _logger.LogError(ex.Message, "Error.");
                 responseDto.SetStatusError("Error interno en el servidor", StatusCode.INTERNAL_SERVER_ERROR);
-
                 return responseDto;
             }
         }

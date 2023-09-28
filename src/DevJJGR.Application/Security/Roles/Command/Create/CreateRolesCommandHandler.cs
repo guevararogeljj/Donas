@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Donouts.Application.utils;
+using Donouts.Domain.Entities;
 using DonoutsCore.Common.Models;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -10,10 +11,10 @@ namespace Donouts.Application.Security.Roles.Command.Create
 {
     public class CreateRolesCommandHandler : IRequestHandler<CreateRolesCommand, ResponseDto<Boolean>>
     {
-        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly RoleManager<ApplicationRole> _roleManager;
         private readonly IMapper _mapper;
         private readonly ILogger<CreateRolesCommandHandler> _logger;
-        public CreateRolesCommandHandler(RoleManager<IdentityRole> roleManager, IMapper mapper, ILogger<CreateRolesCommandHandler> logger)
+        public CreateRolesCommandHandler(RoleManager<ApplicationRole> roleManager, IMapper mapper, ILogger<CreateRolesCommandHandler> logger)
         {
             this._roleManager = roleManager;
             this._mapper = mapper;
@@ -24,8 +25,8 @@ namespace Donouts.Application.Security.Roles.Command.Create
             var responseDto = new ResponseDto<Boolean>();
             try
             {
-                var objDb = new IdentityRole();
-                objDb.Id = Guid.NewGuid().ToString();
+                var objDb = new ApplicationRole();
+                objDb.Id = Guid.NewGuid();
                 objDb.Name = request.Name;
 
                 if (!await _roleManager.RoleExistsAsync(request.Name))

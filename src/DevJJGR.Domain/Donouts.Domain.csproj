@@ -15,6 +15,15 @@
 
   <ItemGroup>
     <Folder Include="Errors\" />
+    <Folder Include="Entities\Activities\" />
+    <Folder Include="Entities\Calendar\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Entities\Activities\" />
+    <None Remove="Entities\Calendar\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.editorconfig" />
+  </ItemGroup>
 </Project>
