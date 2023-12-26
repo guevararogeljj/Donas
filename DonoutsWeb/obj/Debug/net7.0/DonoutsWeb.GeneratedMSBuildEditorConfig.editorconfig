@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DonoutsWeb
 build_property.RootNamespace = DonoutsWeb
-build_property.ProjectDir = C:\Users\INTECH\source\repos\Donas\DonoutsWeb\
+build_property.ProjectDir = /Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\INTECH\source\repos\Donas\DonoutsWeb
+build_property.MSBuildProjectDirectory = /Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/Login/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/SalesDonouts/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNEb25vdXRzXEluZGV4LmNzaHRtbA==
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/SalesDonouts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FsZXNEb25vdXRzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/Shared/_TopNavbar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BOYXZiYXIuY3NodG1s
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/Shared/_TopNavbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ub3BOYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/INTECH/source/repos/Donas/DonoutsWeb/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-avi539vudc
+[/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zgvmhjh4r3

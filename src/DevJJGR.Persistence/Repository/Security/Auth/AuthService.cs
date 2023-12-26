@@ -60,6 +60,7 @@ namespace Donouts.Persistance.Repository.Security.Auth
             string token = GenerateToken(authClaims);
             var tokenResponse = new TokenResponseDTO();
             tokenResponse.Token = token;
+            tokenResponse.Role = userRoles.FirstOrDefault();
             responseDto.Data = tokenResponse;
             responseDto.SetStatusCode(StatusCode.OK);
             responseDto.Message = "Transacción exitosa";

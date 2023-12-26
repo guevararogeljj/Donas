@@ -27,7 +27,7 @@ namespace Donouts.Application.Security.Users.Queries.GetAll
             var responseDto = new ResponseDto<List<UsersDTO>>();
             try
             {
-                var users = await _usersRepository.GetAll();
+                var users = await _usersRepository.GetAll(request.PageNumber, request.PageSize);
                 if (users.Count() <= 0)
                 {
                     responseDto.SetStatusError("No hay registros", StatusCode.NO_CONTENT);

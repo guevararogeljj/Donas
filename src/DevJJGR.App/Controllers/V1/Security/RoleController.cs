@@ -19,9 +19,9 @@ namespace Donouts.Presentation.Controllers.V1.Security
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> GetAll()
+        public async Task<ActionResult> GetAll([FromQuery] GetAllRoles request)
         {
-            var response = await this.Mediator.Send(new GetAllRoles());
+            var response = await this.Mediator.Send(new GetAllRoles(request.PageNumber, request.PageNumber));
             return StatusCode((int)response.Code, response);
         }
 

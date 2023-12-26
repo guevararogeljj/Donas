@@ -516,3 +516,6 @@
 /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/obj/Debug/net7.0/DonoutsWeb.pdb
 /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/obj/Debug/net7.0/DonoutsWeb.genruntimeconfig.cache
 /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/obj/Debug/net7.0/ref/DonoutsWeb.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/bin/Debug/net7.0/JetBrains.Annotations.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/bin/Debug/net7.0/LinqKit.Microsoft.EntityFrameworkCore.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/bin/Debug/net7.0/AutoBuildPredicate.dll

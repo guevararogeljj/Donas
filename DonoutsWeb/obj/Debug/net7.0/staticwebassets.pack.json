@@ -1,1479 +1,1479 @@
 {
   "Files": [
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/obj/Debug/net7.0/scopedcss/projectbundle/DonoutsWeb.bundle.scp.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/obj/Debug/net7.0/scopedcss/projectbundle/DonoutsWeb.bundle.scp.css",
       "PackagePath": "staticwebassets/DonoutsWeb.bundle.scp.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/Linde.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/Linde.css",
       "PackagePath": "staticwebassets/css/Linde.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/animate.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/animate.min.css",
       "PackagePath": "staticwebassets/css/animate.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/conditioning-order.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/conditioning-order.css",
       "PackagePath": "staticwebassets/css/conditioning-order.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/invoice-print.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/invoice-print.min.css",
       "PackagePath": "staticwebassets/css/invoice-print.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/LICENSE",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/LICENSE",
       "PackagePath": "staticwebassets/css/materialize"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/README.md",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/README.md",
       "PackagePath": "staticwebassets/css/materialize/README.md"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/css/materialize.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/css/materialize.css",
       "PackagePath": "staticwebassets/css/materialize/css/materialize.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/css/materialize.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/css/materialize.min.css",
       "PackagePath": "staticwebassets/css/materialize/css/materialize.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/js/materialize.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/js/materialize.js",
       "PackagePath": "staticwebassets/css/materialize/js/materialize.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/js/materialize.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/materialize/js/materialize.min.js",
       "PackagePath": "staticwebassets/css/materialize/js/materialize.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/production-order.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/production-order.css",
       "PackagePath": "staticwebassets/css/production-order.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/site.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/css/style.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/css/style.min.css",
       "PackagePath": "staticwebassets/css/style.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/favicon.ico",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/apps.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/apps.min.js",
       "PackagePath": "staticwebassets/js/apps.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/catalogs.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/catalogs.js",
       "PackagePath": "staticwebassets/js/catalogs.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/conditioning-order/conditioning-order-form-wizards.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/conditioning-order/conditioning-order-form-wizards.js",
       "PackagePath": "staticwebassets/js/conditioning-order/conditioning-order-form-wizards.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/conditioning-order/conditioning-order-index.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/conditioning-order/conditioning-order-index.js",
       "PackagePath": "staticwebassets/js/conditioning-order/conditioning-order-index.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/demo.min.js",
       "PackagePath": "staticwebassets/js/demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/linde.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/linde.js",
       "PackagePath": "staticwebassets/js/linde.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-calendar.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-calendar.demo.min.js",
       "PackagePath": "staticwebassets/js/page-calendar.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-chart-flot.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-chart-flot.demo.min.js",
       "PackagePath": "staticwebassets/js/page-chart-flot.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-chart-js.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-chart-js.demo.min.js",
       "PackagePath": "staticwebassets/js/page-chart-js.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-chart-morris.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-chart-morris.demo.min.js",
       "PackagePath": "staticwebassets/js/page-chart-morris.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-email.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-email.demo.min.js",
       "PackagePath": "staticwebassets/js/page-email.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-extra-coming-soon.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-extra-coming-soon.demo.min.js",
       "PackagePath": "staticwebassets/js/page-extra-coming-soon.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-plugins.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-plugins.demo.min.js",
       "PackagePath": "staticwebassets/js/page-form-plugins.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-slider-switcher.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-slider-switcher.demo.min.js",
       "PackagePath": "staticwebassets/js/page-form-slider-switcher.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-wizards.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-wizards.demo.min.js",
       "PackagePath": "staticwebassets/js/page-form-wizards.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-wysiwyg.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-form-wysiwyg.demo.min.js",
       "PackagePath": "staticwebassets/js/page-form-wysiwyg.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index-v2.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index-v2.demo.min.js",
       "PackagePath": "staticwebassets/js/page-index-v2.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index-v3.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index-v3.demo.min.js",
       "PackagePath": "staticwebassets/js/page-index-v3.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index-v4.demo.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index-v4.demo.js",
       "PackagePath": "staticwebassets/js/page-index-v4.demo.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index.demo.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-index.demo.js",
       "PackagePath": "staticwebassets/js/page-index.demo.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-map-google.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-map-google.demo.min.js",
       "PackagePath": "staticwebassets/js/page-map-google.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-map-vector.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-map-vector.demo.min.js",
       "PackagePath": "staticwebassets/js/page-map-vector.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-autofill.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-autofill.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-autofill.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-buttons.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-buttons.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-buttons.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-colreorder.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-colreorder.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-colreorder.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-combine.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-combine.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-combine.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-fixed-columns.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-fixed-columns.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-fixed-columns.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-fixed-header.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-fixed-header.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-fixed-header.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-keytable.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-keytable.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-keytable.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-responsive.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-responsive.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-responsive.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-rowreorder.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-rowreorder.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-rowreorder.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-scroller.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-scroller.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-scroller.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-select.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage-select.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage-select.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-table-manage.demo.min.js",
       "PackagePath": "staticwebassets/js/page-table-manage.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-ui-modal-notification.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-ui-modal-notification.demo.min.js",
       "PackagePath": "staticwebassets/js/page-ui-modal-notification.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/page-widgets.demo.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/page-widgets.demo.min.js",
       "PackagePath": "staticwebassets/js/page-widgets.demo.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/production-order/production-order-form-wizards.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/production-order/production-order-form-wizards.js",
       "PackagePath": "staticwebassets/js/production-order/production-order-form-wizards.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/production-order/production-order-index.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/production-order/production-order-index.js",
       "PackagePath": "staticwebassets/js/production-order/production-order-index.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/js/site.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/css/bootstrap.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/5.0.2/css/bootstrap.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/css/bootstrap.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/5.0.2/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/js/bootstrap.bundle.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/5.0.2/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/js/bootstrap.bundle.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/5.0.2/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/5.0.2/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/AutoFill/css/autoFill.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/AutoFill/css/autoFill.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/AutoFill/css/autoFill.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/AutoFill/js/autoFill.bootstrap.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/AutoFill/js/autoFill.bootstrap.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/AutoFill/js/autoFill.bootstrap.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/AutoFill/js/dataTables.autoFill.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/AutoFill/js/dataTables.autoFill.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/AutoFill/js/dataTables.autoFill.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/css/buttons.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/css/buttons.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Buttons/css/buttons.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.bootstrap.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.bootstrap.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Buttons/js/buttons.bootstrap.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.flash.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.flash.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Buttons/js/buttons.flash.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.html5.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.html5.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Buttons/js/buttons.html5.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.print.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/buttons.print.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Buttons/js/buttons.print.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/dataTables.buttons.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Buttons/js/dataTables.buttons.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Buttons/js/dataTables.buttons.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/ColReorder/css/colReorder.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/ColReorder/css/colReorder.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/ColReorder/css/colReorder.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/ColReorder/js/dataTables.colReorder.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/ColReorder/js/dataTables.colReorder.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/ColReorder/js/dataTables.colReorder.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedColumns/css/fixedColumns.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedColumns/css/fixedColumns.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/FixedColumns/css/fixedColumns.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedHeader/css/fixedHeader.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedHeader/css/fixedHeader.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/FixedHeader/css/fixedHeader.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/KeyTable/css/keyTable.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/KeyTable/css/keyTable.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/KeyTable/css/keyTable.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/KeyTable/js/dataTables.keyTable.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/KeyTable/js/dataTables.keyTable.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/KeyTable/js/dataTables.keyTable.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Responsive/js/responsive.bootstrap.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Responsive/js/responsive.bootstrap.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Responsive/js/responsive.bootstrap.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/RowReorder/css/rowReorder.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/RowReorder/css/rowReorder.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/RowReorder/css/rowReorder.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/RowReorder/js/dataTables.rowReorder.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/RowReorder/js/dataTables.rowReorder.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/RowReorder/js/dataTables.rowReorder.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Scroller/css/scroller.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Scroller/css/scroller.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Scroller/css/scroller.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Scroller/js/dataTables.scroller.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Scroller/js/dataTables.scroller.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Scroller/js/dataTables.scroller.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Select/css/select.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Select/css/select.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Select/css/select.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Select/js/dataTables.select.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/extensions/Select/js/dataTables.select.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/extensions/Select/js/dataTables.select.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/css/dataTables.bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/css/dataTables.bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/DataTables/media/css/dataTables.bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/buttons.html5.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/buttons.html5.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/DataDownload/buttons.html5.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/jquery.dataTables.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/jquery.dataTables.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/DataDownload/jquery.dataTables.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/jszip.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/jszip.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/DataDownload/jszip.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/pdfmake.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/pdfmake.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/DataDownload/pdfmake.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/pdfmake.min.js.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/pdfmake.min.js.map",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/DataDownload/pdfmake.min.js.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/vfs_fonts.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/DataDownload/vfs_fonts.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/DataDownload/vfs_fonts.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/dataTables.bootstrap.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/dataTables.bootstrap.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/dataTables.bootstrap.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/datetime.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/datetime.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/datetime.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/jquery.dataTables.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/jquery.dataTables.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/jquery.dataTables.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/moment.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/DataTables/media/js/moment.min.js",
       "PackagePath": "staticwebassets/plugins/DataTables/media/js/moment.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/angularjs/angular-ui-route.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/angularjs/angular-ui-route.min.js",
       "PackagePath": "staticwebassets/plugins/angularjs/angular-ui-route.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/angularjs/angular.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/angularjs/angular.min.js",
       "PackagePath": "staticwebassets/plugins/angularjs/angular.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/angularjs/ocLazyLoad.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/angularjs/ocLazyLoad.min.js",
       "PackagePath": "staticwebassets/plugins/angularjs/ocLazyLoad.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootbox/js/bootbox.all.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootbox/js/bootbox.all.min.js",
       "PackagePath": "staticwebassets/plugins/bootbox/js/bootbox.all.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootbox/js/bootbox.locales.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootbox/js/bootbox.locales.min.js",
       "PackagePath": "staticwebassets/plugins/bootbox/js/bootbox.locales.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootbox/js/bootbox.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootbox/js/bootbox.min.js",
       "PackagePath": "staticwebassets/plugins/bootbox/js/bootbox.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-angular-ui/ui-bootstrap-tpls.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-angular-ui/ui-bootstrap-tpls.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-angular-ui/ui-bootstrap-tpls.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-calendar/css/bootstrap_calendar.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-calendar/css/bootstrap_calendar.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-calendar/css/bootstrap_calendar.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-combobox/css/bootstrap-combobox.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-combobox/css/bootstrap-combobox.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-combobox/css/bootstrap-combobox.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-combobox/js/bootstrap-combobox.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-combobox/js/bootstrap-combobox.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-combobox/js/bootstrap-combobox.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-daterangepicker/daterangepicker.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-daterangepicker/daterangepicker.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-daterangepicker/daterangepicker.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-daterangepicker/daterangepicker.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-daterangepicker/daterangepicker.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-daterangepicker/daterangepicker.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-daterangepicker/moment.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-daterangepicker/moment.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-daterangepicker/moment.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-eonasdan-datetimepicker/build/css/bootstrap-datetimepicker.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-eonasdan-datetimepicker/build/js/bootstrap-datetimepicker.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-select/bootstrap-select.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.css.map",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.css.map",
       "PackagePath": "staticwebassets/plugins/bootstrap-select/bootstrap-select.css.map"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-select/bootstrap-select.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.min.bak.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.min.bak.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-select/bootstrap-select.min.bak.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.min.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-select/bootstrap-select.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-select/bootstrap-select.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-select/bootstrap-select.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-wizard/css/bwizard.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-wizard/css/bwizard.min.css",
       "PackagePath": "staticwebassets/plugins/bootstrap-wizard/css/bwizard.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-wizard/js/bwizard.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap-wizard/js/bwizard.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap-wizard/js/bwizard.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/bootstrap-4.1.1/css/bootstrap.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/bootstrap-4.1.1/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/plugins/bootstrap/bootstrap-4.1.1/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/bootstrap-4.1.1/js/bootstrap.bundle.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/bootstrap-4.1.1/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/plugins/bootstrap/bootstrap-4.1.1/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.eot",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.eot",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.eot"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.svg",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.ttf",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.woff",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.woff",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-GLOBAL-REGULAR.woff"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.eot",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.eot",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.eot"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.svg",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.ttf",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.woff",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.woff",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/LINDE-DAX-MEDIUM.woff"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/chart-js/Chart.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/chart-js/Chart.js",
       "PackagePath": "staticwebassets/plugins/chart-js/Chart.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/chart-js/Chart.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/chart-js/Chart.min.js",
       "PackagePath": "staticwebassets/plugins/chart-js/Chart.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/dropzone/dropzone.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/dropzone/dropzone.min.css",
       "PackagePath": "staticwebassets/plugins/dropzone/dropzone.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/dropzone/dropzone.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/dropzone/dropzone.min.js",
       "PackagePath": "staticwebassets/plugins/dropzone/dropzone.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/CurvedLines/curvedLines.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/CurvedLines/curvedLines.js",
       "PackagePath": "staticwebassets/plugins/flot/CurvedLines/curvedLines.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.categories.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.categories.js",
       "PackagePath": "staticwebassets/plugins/flot/jquery.flot.categories.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.crosshair.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.crosshair.min.js",
       "PackagePath": "staticwebassets/plugins/flot/jquery.flot.crosshair.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.min.js",
       "PackagePath": "staticwebassets/plugins/flot/jquery.flot.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.pie.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.pie.min.js",
       "PackagePath": "staticwebassets/plugins/flot/jquery.flot.pie.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.resize.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.resize.min.js",
       "PackagePath": "staticwebassets/plugins/flot/jquery.flot.resize.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.stack.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.stack.min.js",
       "PackagePath": "staticwebassets/plugins/flot/jquery.flot.stack.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.time.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/flot/jquery.flot.time.min.js",
       "PackagePath": "staticwebassets/plugins/flot/jquery.flot.time.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/css/all.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/css/all.css",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/css/all.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.eot",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.eot",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-brands-400.eot"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.svg",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-brands-400.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.ttf",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-brands-400.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.woff",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.woff",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-brands-400.woff"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.woff2",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-brands-400.woff2",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-brands-400.woff2"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.eot",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.eot",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-regular-400.eot"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.svg",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-regular-400.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.ttf",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-regular-400.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.woff",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.woff",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-regular-400.woff"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.woff2",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-regular-400.woff2",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-regular-400.woff2"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.eot",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.eot",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-solid-900.eot"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.svg",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-solid-900.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.ttf",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-solid-900.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.woff",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.woff",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-solid-900.woff"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.woff2",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/font-awesome/5.1/webfonts/fa-solid-900.woff2",
       "PackagePath": "staticwebassets/plugins/font-awesome/5.1/webfonts/fa-solid-900.woff2"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/fullcalendar.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/fullcalendar.min.css",
       "PackagePath": "staticwebassets/plugins/fullcalendar/fullcalendar.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/fullcalendar.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/fullcalendar.min.js",
       "PackagePath": "staticwebassets/plugins/fullcalendar/fullcalendar.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/fullcalendar.print.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/fullcalendar.print.css",
       "PackagePath": "staticwebassets/plugins/fullcalendar/fullcalendar.print.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/lib/moment.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/fullcalendar/lib/moment.min.js",
       "PackagePath": "staticwebassets/plugins/fullcalendar/lib/moment.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/gritter/css/jquery.gritter.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/gritter/css/jquery.gritter.css",
       "PackagePath": "staticwebassets/plugins/gritter/css/jquery.gritter.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/gritter/js/jquery.gritter.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/gritter/js/jquery.gritter.js",
       "PackagePath": "staticwebassets/plugins/gritter/js/jquery.gritter.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionRangeSlider/css/ion.rangeSlider.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionRangeSlider/css/ion.rangeSlider.css",
       "PackagePath": "staticwebassets/plugins/ionRangeSlider/css/ion.rangeSlider.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css",
       "PackagePath": "staticwebassets/plugins/ionRangeSlider/css/ion.rangeSlider.skinNice.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js",
       "PackagePath": "staticwebassets/plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionicons/css/ionicons.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/ionicons/css/ionicons.min.css",
       "PackagePath": "staticwebassets/plugins/ionicons/css/ionicons.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-cookie/jquery.cookie.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-cookie/jquery.cookie.js",
       "PackagePath": "staticwebassets/plugins/jquery-cookie/jquery.cookie.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-countdown/dist/jquery.countdown.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-countdown/dist/jquery.countdown.min.js",
       "PackagePath": "staticwebassets/plugins/jquery-countdown/dist/jquery.countdown.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/LICENSE",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/LICENSE",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/README.md",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/README.md",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/README.md"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/index.html",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/index.html",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/index.html"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.css",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/jquery.fulltable.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.eot",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.eot",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/jquery.fulltable.eot"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.js",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/jquery.fulltable.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/jquery.fulltable.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.ttf",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/jquery.fulltable.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.woff",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.woff",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/jquery.fulltable.woff"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.woff2",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/jquery.fulltable.woff2",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/jquery.fulltable.woff2"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/add.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/add.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/add.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/discard.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/discard.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/discard.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/down_arrow.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/down_arrow.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/down_arrow.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/edit.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/edit.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/edit.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/jquery.fulltable.sfd",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/jquery.fulltable.sfd",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/jquery.fulltable.sfd"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/jquery.fulltable.ttf",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/jquery.fulltable.ttf",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/jquery.fulltable.ttf"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/left_arrow.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/left_arrow.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/left_arrow.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/remove.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/remove.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/remove.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/right_arrow.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/right_arrow.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/right_arrow.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/save.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/save.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/save.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/up_arrow.svg",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-fulltable/resources/up_arrow.svg",
       "PackagePath": "staticwebassets/plugins/jquery-fulltable/resources/up_arrow.svg"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css",
       "PackagePath": "staticwebassets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js",
       "PackagePath": "staticwebassets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js",
       "PackagePath": "staticwebassets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/jquery.mapael.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/jquery.mapael.js",
       "PackagePath": "staticwebassets/plugins/jquery-mapael/js/jquery.mapael.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/maps/france_departments.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/maps/france_departments.js",
       "PackagePath": "staticwebassets/plugins/jquery-mapael/js/maps/france_departments.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/maps/usa_states.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/maps/usa_states.js",
       "PackagePath": "staticwebassets/plugins/jquery-mapael/js/maps/usa_states.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/maps/world_countries.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-mapael/js/maps/world_countries.js",
       "PackagePath": "staticwebassets/plugins/jquery-mapael/js/maps/world_countries.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-tag-it/css/jquery.tagit.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-tag-it/css/jquery.tagit.css",
       "PackagePath": "staticwebassets/plugins/jquery-tag-it/css/jquery.tagit.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-tag-it/js/tag-it.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-tag-it/js/tag-it.min.js",
       "PackagePath": "staticwebassets/plugins/jquery-tag-it/js/tag-it.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_444444_256x240.png",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_444444_256x240.png",
       "PackagePath": "staticwebassets/plugins/jquery-ui/images/ui-icons_444444_256x240.png"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_555555_256x240.png",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_555555_256x240.png",
       "PackagePath": "staticwebassets/plugins/jquery-ui/images/ui-icons_555555_256x240.png"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_777620_256x240.png",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_777620_256x240.png",
       "PackagePath": "staticwebassets/plugins/jquery-ui/images/ui-icons_777620_256x240.png"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_777777_256x240.png",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_777777_256x240.png",
       "PackagePath": "staticwebassets/plugins/jquery-ui/images/ui-icons_777777_256x240.png"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_cc0000_256x240.png",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_cc0000_256x240.png",
       "PackagePath": "staticwebassets/plugins/jquery-ui/images/ui-icons_cc0000_256x240.png"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png",
       "PackagePath": "staticwebassets/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/jquery-ui.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/jquery-ui.min.css",
       "PackagePath": "staticwebassets/plugins/jquery-ui/jquery-ui.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/jquery-ui.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/jquery-ui.min.js",
       "PackagePath": "staticwebassets/plugins/jquery-ui/jquery-ui.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/jquery.ui.datepicker-es.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery-ui/jquery.ui.datepicker-es.min.js",
       "PackagePath": "staticwebassets/plugins/jquery-ui/jquery.ui.datepicker-es.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery.confirm/jquery.confirm.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery.confirm/jquery.confirm.min.js",
       "PackagePath": "staticwebassets/plugins/jquery.confirm/jquery.confirm.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery-3.2.1.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery-3.2.1.min.js",
       "PackagePath": "staticwebassets/plugins/jquery/jquery-3.2.1.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery-3.3.1.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery-3.3.1.min.js",
       "PackagePath": "staticwebassets/plugins/jquery/jquery-3.3.1.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery-migrate-1.1.0.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery-migrate-1.1.0.min.js",
       "PackagePath": "staticwebassets/plugins/jquery/jquery-migrate-1.1.0.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery.dataTables.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/jquery/jquery.dataTables.min.css",
       "PackagePath": "staticwebassets/plugins/jquery/jquery.dataTables.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/masked-input/masked-input.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/masked-input/masked-input.min.js",
       "PackagePath": "staticwebassets/plugins/masked-input/masked-input.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/morris/morris.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/morris/morris.css",
       "PackagePath": "staticwebassets/plugins/morris/morris.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/morris/morris.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/morris/morris.js",
       "PackagePath": "staticwebassets/plugins/morris/morris.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/morris/raphael.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/morris/raphael.min.js",
       "PackagePath": "staticwebassets/plugins/morris/raphael.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/pace/pace.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/pace/pace.min.js",
       "PackagePath": "staticwebassets/plugins/pace/pace.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/parsley/dist/parsley.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/parsley/dist/parsley.js",
       "PackagePath": "staticwebassets/plugins/parsley/dist/parsley.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/parsley/src/parsley.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/parsley/src/parsley.css",
       "PackagePath": "staticwebassets/plugins/parsley/src/parsley.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/powerange/powerange.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/powerange/powerange.min.css",
       "PackagePath": "staticwebassets/plugins/powerange/powerange.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/powerange/powerange.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/powerange/powerange.min.js",
       "PackagePath": "staticwebassets/plugins/powerange/powerange.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/select2/dist/css/select2.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/select2/dist/css/select2.min.css",
       "PackagePath": "staticwebassets/plugins/select2/dist/css/select2.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/select2/dist/js/select2.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/select2/dist/js/select2.min.js",
       "PackagePath": "staticwebassets/plugins/select2/dist/js/select2.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/simple-line-icons/simple-line-icons.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/simple-line-icons/simple-line-icons.css",
       "PackagePath": "staticwebassets/plugins/simple-line-icons/simple-line-icons.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/slimscroll/jquery.slimscroll.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/slimscroll/jquery.slimscroll.min.js",
       "PackagePath": "staticwebassets/plugins/slimscroll/jquery.slimscroll.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/sparkline/jquery.sparkline.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/sparkline/jquery.sparkline.min.js",
       "PackagePath": "staticwebassets/plugins/sparkline/jquery.sparkline.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/strength-js/strength.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/strength-js/strength.css",
       "PackagePath": "staticwebassets/plugins/strength-js/strength.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/strength-js/strength.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/strength-js/strength.js",
       "PackagePath": "staticwebassets/plugins/strength-js/strength.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/summernote/summernote-bs4.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/summernote/summernote-bs4.css",
       "PackagePath": "staticwebassets/plugins/summernote/summernote-bs4.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/summernote/summernote-bs4.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/summernote/summernote-bs4.min.js",
       "PackagePath": "staticwebassets/plugins/summernote/summernote-bs4.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/switchery/switchery.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/switchery/switchery.min.css",
       "PackagePath": "staticwebassets/plugins/switchery/switchery.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/switchery/switchery.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/switchery/switchery.min.js",
       "PackagePath": "staticwebassets/plugins/switchery/switchery.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/icons/default/icons.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/icons/default/icons.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/icons/default/icons.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/langs/README.md",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/langs/README.md",
       "PackagePath": "staticwebassets/plugins/tinymce/langs/README.md"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/langs/es_MX.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/langs/es_MX.js",
       "PackagePath": "staticwebassets/plugins/tinymce/langs/es_MX.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/license.txt",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/license.txt",
       "PackagePath": "staticwebassets/plugins/tinymce/license.txt"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/models/dom/model.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/models/dom/model.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/models/dom/model.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/advlist/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/advlist/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/advlist/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/anchor/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/anchor/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/anchor/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/autolink/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/autolink/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/autolink/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/autoresize/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/autoresize/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/autoresize/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/autosave/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/autosave/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/autosave/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/charmap/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/charmap/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/charmap/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/code/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/code/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/code/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/codesample/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/codesample/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/codesample/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/directionality/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/directionality/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/directionality/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojiimages.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojiimages.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/emoticons/js/emojiimages.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojiimages.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojiimages.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/emoticons/js/emojiimages.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojis.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojis.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/emoticons/js/emojis.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojis.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/js/emojis.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/emoticons/js/emojis.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/emoticons/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/emoticons/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/fullscreen/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/fullscreen/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/fullscreen/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/help/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/help/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/help/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/image/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/image/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/image/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/importcss/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/importcss/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/importcss/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/insertdatetime/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/insertdatetime/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/insertdatetime/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/link/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/link/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/link/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/lists/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/lists/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/lists/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/media/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/media/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/media/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/nonbreaking/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/nonbreaking/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/nonbreaking/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/pagebreak/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/pagebreak/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/pagebreak/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/preview/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/preview/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/preview/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/quickbars/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/quickbars/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/quickbars/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/save/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/save/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/save/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/searchreplace/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/searchreplace/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/searchreplace/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/table/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/table/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/table/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/template/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/template/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/template/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/visualblocks/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/visualblocks/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/visualblocks/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/visualchars/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/visualchars/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/visualchars/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/wordcount/plugin.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/plugins/wordcount/plugin.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/plugins/wordcount/plugin.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/dark/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/dark/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/content/dark/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/default/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/default/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/content/default/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/document/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/document/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/content/document/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/tinymce-5-dark/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/tinymce-5-dark/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/content/tinymce-5-dark/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/tinymce-5/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/tinymce-5/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/content/tinymce-5/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/writer/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/content/writer/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/content/writer/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/content.inline.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/content.inline.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide-dark/content.inline.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide-dark/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/skin.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/skin.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide-dark/skin.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/content.inline.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/content.inline.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide/content.inline.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/skin.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/skin.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide/skin.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/skin.shadowdom.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/oxide/skin.shadowdom.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/oxide/skin.shadowdom.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5-dark/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/skin.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/skin.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5-dark/skin.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/content.inline.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/content.inline.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5/content.inline.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/content.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/content.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5/content.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/skin.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/skin.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5/skin.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css",
       "PackagePath": "staticwebassets/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/themes/silver/theme.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/themes/silver/theme.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/themes/silver/theme.min.js"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/themes/silver/theme.min.js.bak",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/themes/silver/theme.min.js.bak",
       "PackagePath": "staticwebassets/plugins/tinymce/themes/silver/theme.min.js.bak"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/tinymce.d.ts",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/tinymce.d.ts",
       "PackagePath": "staticwebassets/plugins/tinymce/tinymce.d.ts"
     },
     {
-      "Id": "/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/tinymce.min.js",
+      "Id": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/wwwroot/plugins/tinymce/tinymce.min.js",
       "PackagePath": "staticwebassets/plugins/tinymce/tinymce.min.js"
     },
     {

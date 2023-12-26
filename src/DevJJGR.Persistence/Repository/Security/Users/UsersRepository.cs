@@ -18,7 +18,7 @@ namespace Donouts.Persistence.Repository.Security.Users
             this._mapper = mapper;
 		}
 
-        public async Task<IEnumerable<UsersDTO>> GetAll()
+        public async Task<IEnumerable<UsersDTO>> GetAll(int PageNumber, int PageSize)
         {
             return  this._mapper.Map<List<UsersDTO>>(this._userManager.Users.ToList());
         }

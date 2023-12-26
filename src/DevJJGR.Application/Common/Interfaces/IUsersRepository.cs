@@ -8,7 +8,7 @@ namespace Donouts.Application.Common.Interfaces
 {
 	public interface IUsersRepository
     {
-        Task<IEnumerable<UsersDTO>> GetAll();
+        Task<IEnumerable<UsersDTO>> GetAll(int PageNumber, int PageSize);
         Task<IEnumerable<UsersDTO>> GetAllByPredicateAsync(Expression<Func<Donouts.Domain.Entities.ApplicationUser, bool>> predicate);
         Task<ApplicationUser> GetById(Guid Id);
         Task AddUser(ApplicationUser model);

@@ -233,3 +233,6 @@
 /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.App/bin/Debug/net7.0/JetBrains.Annotations.dll
 /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.App/bin/Debug/net7.0/LinqKit.Microsoft.EntityFrameworkCore.dll
 /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.App/bin/Debug/net7.0/AutoBuildPredicate.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.App/bin/Debug/net7.0/JetBrains.Annotations.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.App/bin/Debug/net7.0/LinqKit.Microsoft.EntityFrameworkCore.dll
+/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.App/bin/Debug/net7.0/AutoBuildPredicate.dll

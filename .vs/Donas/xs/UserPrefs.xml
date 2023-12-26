@@ -1,45 +1,40 @@
 ﻿<Properties StartupConfiguration="{1DF6C393-6E18-4477-A690-9B2E8D4E636B}|CarritoWebApi.App">
+  <MonoDevelop.Ide.ItemProperties.src.DonoutsWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" relfile="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" line="31" column="1" />
-      <Breakpoint file="/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo/GitHub/Donas/src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" relfile="src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" line="22" column="1" />
-    </BreakpointStore>
+    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" relfile="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" line="31" column="1" />
+    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" relfile="src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" line="22" column="1" />
+    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Controllers/LoginController.cs" relfile="DonoutsWeb/Controllers/LoginController.cs" line="48" column="1" />
+    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" relfile="src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" line="72" column="1" />
+    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/Donnouts/Sales/Queries/GetAll/GetAllSalesDonoutsHandler.cs" relfile="src/DevJJGR.Application/Donnouts/Sales/Queries/GetAll/GetAllSalesDonoutsHandler.cs" line="26" column="1" />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.src.Donouts.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.Donouts.Proxy PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.Donouts.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Donouts.proxy/Program.cs">
     <Files>
-      <File FileName="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" />
-      <File FileName="src/DevJJGR.App/Controllers/V1/Calendar/CalendarController.cs" />
-      <File FileName="src/DevJJGR.App/Controllers/V1/Security/UserController.cs" />
-      <File FileName="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssigned.cs" />
-      <File FileName="src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" />
-      <File FileName="src/DevJJGR.App/Controllers/V1/Security/AuthenticationController.cs" />
-      <File FileName="src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" Line="51" Column="44" />
+      <File FileName="src/DevJJGR.App/Properties/launchSettings.json" Line="16" Column="43" />
+      <File FileName="src/DevJJGR.App/appsettings.json" Line="20" Column="1" />
+      <File FileName="Donouts.proxy/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Donas">
             <Node name="src" expanded="True">
-              <Node name="Donouts.Application" expanded="True">
-                <Node name="Calendar" expanded="True">
-                  <Node name="Queries" expanded="True">
-                    <Node name="GetAssigned" expanded="True" />
+              <Node name="Donouts.Presentation" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="V1" expanded="True">
+                    <Node name="Security" expanded="True" />
                   </Node>
                 </Node>
+                <Node name="Properties" expanded="True" />
+                <Node name="appsettings.json" expanded="True" />
               </Node>
-              <Node name="Donouts.Infrastructure" expanded="True">
-                <Node name="Services" expanded="True" />
-              </Node>
-              <Node name="Donouts.Persistance" expanded="True">
-                <Node name="Repository" expanded="True">
-                  <Node name="Security" expanded="True">
-                    <Node name="Auth" expanded="True" />
-                    <Node name="Common" selected="True" />
-                  </Node>
+              <Node name="Donouts.proxy" selected="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="FrameworkReferences" expanded="True" />
                 </Node>
               </Node>
             </Node>

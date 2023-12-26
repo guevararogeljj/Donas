@@ -25,7 +25,9 @@ namespace Donouts.Application.Security.Roles.Queries.GetAll
             var responseDto = new ResponseDto<List<RoleDTO>>();
             try
             {
-                var roles = this._roleManager.Roles.ToList();
+                var roles = this._roleManager.Roles
+                            .Skip((request.PageNumber - 1) * request.PageSize)
+                            .Take(request.PageSize).ToList();
                 if (roles.Count() <= 0)
                 {
                     responseDto.SetStatusError("No hay registros", StatusCode.NO_CONTENT);

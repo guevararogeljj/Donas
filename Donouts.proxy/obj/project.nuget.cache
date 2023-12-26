@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7YNu0JI43aVJtxd5tl1nfJfutHh06iDplxUFgYCDI21ZCbK6vHRlW0Yh4BPPBV3K9qSyZqVNQnqE/B83yHWFTQ==",
+  "success": true,
+  "projectFilePath": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/Donouts.proxy/Donouts.proxy.csproj",
+  "expectedPackageFiles": [
+    "/Users/jeronimoguevararogel/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/Users/jeronimoguevararogel/.nuget/packages/microsoft.bcl.timeprovider/8.0.0/microsoft.bcl.timeprovider.8.0.0.nupkg.sha512",
+    "/Users/jeronimoguevararogel/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
+    "/Users/jeronimoguevararogel/.nuget/packages/system.io.hashing/7.0.0/system.io.hashing.7.0.0.nupkg.sha512",
+    "/Users/jeronimoguevararogel/.nuget/packages/yarp.reverseproxy/2.1.0/yarp.reverseproxy.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

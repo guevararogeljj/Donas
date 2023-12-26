@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución",
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donouts.Proxy", "Donouts.proxy\Donouts.proxy.csproj", "{88B72BAB-DFBD-4BBC-A981-B87F8088ED68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{AD9305D0-AE24-41D0-80AD-2972633E0735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD9305D0-AE24-41D0-80AD-2972633E0735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD9305D0-AE24-41D0-80AD-2972633E0735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B72BAB-DFBD-4BBC-A981-B87F8088ED68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B72BAB-DFBD-4BBC-A981-B87F8088ED68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B72BAB-DFBD-4BBC-A981-B87F8088ED68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B72BAB-DFBD-4BBC-A981-B87F8088ED68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{B6361235-4CB2-40DB-9169-C91006F4E923} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
 		{1DF6C393-6E18-4477-A690-9B2E8D4E636B} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
 		{AD9305D0-AE24-41D0-80AD-2972633E0735} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
+		{88B72BAB-DFBD-4BBC-A981-B87F8088ED68} = {DB5835EE-3A83-401E-8203-ECCF7F3B1DCC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8D46A31-FFE1-4C92-B344-FADBAD683E6E}
