@@ -18,7 +18,7 @@ namespace DonoutsWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private string apiUrl = "https://localhost:7293/api/v1/";
+        private string apiUrl = "https://localhost:7157/api/v1/";
         private readonly ISingletonService _singletonService;
         public HomeController(ILogger<HomeController> logger, ISingletonService singletonService)
         {

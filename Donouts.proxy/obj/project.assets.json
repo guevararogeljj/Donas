@@ -224,9 +224,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/Donouts.proxy/Donouts.proxy.csproj",
+      "projectUniqueName": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/Donouts.proxy/Donouts.Proxy.csproj",
       "projectName": "Donouts.proxy",
-      "projectPath": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/Donouts.proxy/Donouts.proxy.csproj",
+      "projectPath": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/Donouts.proxy/Donouts.Proxy.csproj",
       "packagesPath": "/Users/jeronimoguevararogel/.nuget/packages/",
       "outputPath": "/Users/jeronimoguevararogel/Documents/GitHub/Donas/Donouts.proxy/obj/",
       "projectStyle": "PackageReference",

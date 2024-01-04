@@ -17,7 +17,7 @@ namespace DonoutsWeb.Controllers
 {
     public class SalesDonoutsController : Controller
     {
-        private string apiUrl = "https://localhost:7293/api/v1/";
+        private string apiUrl = "https://localhost:7157/api/v1/";
         private readonly HttpClient _httpClient;
         private readonly ISingletonService _singletonService;
         public SalesDonoutsController(ISingletonService singletonService)

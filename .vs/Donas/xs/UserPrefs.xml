@@ -1,41 +1,42 @@
 ﻿<Properties StartupConfiguration="{1DF6C393-6E18-4477-A690-9B2E8D4E636B}|CarritoWebApi.App">
-  <MonoDevelop.Ide.ItemProperties.src.DonoutsWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" relfile="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" line="31" column="1" />
-    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" relfile="src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" line="22" column="1" />
-    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Controllers/LoginController.cs" relfile="DonoutsWeb/Controllers/LoginController.cs" line="48" column="1" />
-    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" relfile="src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" line="72" column="1" />
-    <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/Donnouts/Sales/Queries/GetAll/GetAllSalesDonoutsHandler.cs" relfile="src/DevJJGR.Application/Donnouts/Sales/Queries/GetAll/GetAllSalesDonoutsHandler.cs" line="26" column="1" />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.src.Donouts.Proxy PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.src.Donouts.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Donouts.proxy/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Donuts.Api.Test/GetAllDonouts.cs">
     <Files>
-      <File FileName="src/DevJJGR.App/Properties/launchSettings.json" Line="16" Column="43" />
-      <File FileName="src/DevJJGR.App/appsettings.json" Line="20" Column="1" />
-      <File FileName="Donouts.proxy/Program.cs" Line="1" Column="1" />
+      <File FileName="src/DevJJGR.App/Properties/launchSettings.json" />
+      <File FileName="src/DevJJGR.App/appsettings.json" />
+      <File FileName="src/DevJJGR.App/Program.cs" />
+      <File FileName="src/DevJJGR.Application/Donnouts/Sales/Commands/Create/CreateSalesDonoutsCommandHandler.cs" Line="16" Column="42" />
+      <File FileName="src/Donuts.Api.Test/GetAllDonouts.cs" Line="19" Column="119" />
+      <File FileName="src/DevJJGR.Persistence/Repository/Donouts/SalesDonoutsRepository.cs" Line="23" Column="65" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Donas">
             <Node name="src" expanded="True">
-              <Node name="Donouts.Presentation" expanded="True">
-                <Node name="Controllers" expanded="True">
-                  <Node name="V1" expanded="True">
-                    <Node name="Security" expanded="True" />
+              <Node name="Donouts.Application" expanded="True">
+                <Node name="Common" expanded="True">
+                  <Node name="Interfaces" expanded="True" />
+                </Node>
+                <Node name="Donnouts" expanded="True">
+                  <Node name="Sales" expanded="True">
+                    <Node name="Commands" expanded="True">
+                      <Node name="Create" expanded="True" />
+                    </Node>
                   </Node>
                 </Node>
-                <Node name="Properties" expanded="True" />
-                <Node name="appsettings.json" expanded="True" />
               </Node>
-              <Node name="Donouts.proxy" selected="True">
-                <Node name="Dependencies" expanded="True">
-                  <Node name="FrameworkReferences" expanded="True" />
+              <Node name="Donouts.Persistance" expanded="True">
+                <Node name="Repository" expanded="True">
+                  <Node name="Donouts" expanded="True" />
                 </Node>
+              </Node>
+              <Node name="Donouts.Presentation" expanded="True">
+                <Node name="Middlewares" expanded="True" />
+              </Node>
+              <Node name="Donuts.Api.Test">
+                <Node name="GetAllDonouts.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -43,4 +44,17 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.DonoutsWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" relfile="src/DevJJGR.Application/Calendar/Queries/GetAssigned/GetCalendarAssignedHandler.cs" line="31" column="1" />
+      <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" relfile="src/DevJJGR.Infrastructure/Services/CurrentUserService.cs" line="22" column="1" />
+      <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Controllers/LoginController.cs" relfile="DonoutsWeb/Controllers/LoginController.cs" line="48" column="1" />
+      <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" relfile="src/DevJJGR.Persistence/Repository/Security/Auth/AuthService.cs" line="72" column="1" />
+      <Breakpoint file="/Users/jeronimoguevararogel/Documents/GitHub/Donas/DonoutsWeb/Controllers/HomeController.cs" relfile="DonoutsWeb/Controllers/HomeController.cs" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Donouts.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.src.Donouts.Proxy PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

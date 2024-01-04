@@ -101,3 +101,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "api/v{version}/[controller]");
 app.Run();
+
+public partial class Program
+{
+    
+}

@@ -28,7 +28,7 @@ namespace Donouts.Application.Donnouts.Sales.Queries.GetAll
             try
             {
                 var sales = await _salesDonoutsRepository.GetAll();
-                if (sales.Count() <= 0)
+                if (sales.Count()! <= 0)
                 {
                     responseDto.SetStatusError("No hay registros", StatusCode.NO_CONTENT);
                     return responseDto;

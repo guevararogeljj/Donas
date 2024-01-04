@@ -1,0 +1,7 @@
+{
+  "Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeronimoguevararogel\/Documents\/GitHub\/Donas\/src\/DevJJGR.Application",
+  "Donouts.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeronimoguevararogel\/Documents\/GitHub\/Donas\/src\/DevJJGR.Domain",
+  "Donouts.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeronimoguevararogel\/Documents\/GitHub\/Donas\/src\/DevJJGR.Infrastructure",
+  "Donouts.Persistance, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeronimoguevararogel\/Documents\/GitHub\/Donas\/src\/DevJJGR.Persistence",
+  "Donouts.Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeronimoguevararogel\/Documents\/GitHub\/Donas\/src\/DevJJGR.App"
+}
