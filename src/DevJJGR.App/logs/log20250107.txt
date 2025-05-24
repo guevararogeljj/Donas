@@ -1,0 +1,1074 @@
+2025-01-07 17:36:17.127 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-01-07 17:36:18.288 -06:00 [INF] Now listening on: https://localhost:7293
+2025-01-07 17:36:18.320 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 17:36:18.321 -06:00 [INF] Hosting environment: Development
+2025-01-07 17:36:18.321 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-01-07 17:36:18.731 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-01-07 17:36:19.013 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 282.6664ms
+2025-01-07 17:36:19.289 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-01-07 17:36:19.400 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.7754ms
+2025-01-07 17:36:40.399 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/TypeDonouts/GetAll - -
+2025-01-07 17:36:40.421 -06:00 [INF] Executing endpoint 'Donouts.Presentation.Controllers.V1.Donouts.TypeDonouts.TypeDonoutsController.GetAll (Donouts.Presentation)'
+2025-01-07 17:36:40.456 -06:00 [INF] Route matched with {action = "GetAll", controller = "TypeDonouts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller Donouts.Presentation.Controllers.V1.Donouts.TypeDonouts.TypeDonoutsController (Donouts.Presentation).
+2025-01-07 17:36:40.463 -06:00 [INF] Executing action method Donouts.Presentation.Controllers.V1.Donouts.TypeDonouts.TypeDonoutsController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:36:41.931 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:36:41.951 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 0ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+2025-01-07 17:36:41.955 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:36:41.955 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 1098ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+2025-01-07 17:36:43.058 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:36:43.060 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 3040ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+2025-01-07 17:36:46.105 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:36:46.111 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 7109ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:2199793b-cb7d-4145-9633-3afac4f25a10
+Error Number:4060,State:1,Class:11
+2025-01-07 17:36:53.351 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:36:53.353 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 15083ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:23a64428-3f3e-4499-80c1-07ae16b690fc
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:23a64428-3f3e-4499-80c1-07ae16b690fc
+Error Number:4060,State:1,Class:11
+2025-01-07 17:37:08.667 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:37:08.670 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 30000ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:99d9d73a-724c-4ec6-a068-eafb20c4894c
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:99d9d73a-724c-4ec6-a068-eafb20c4894c
+Error Number:4060,State:1,Class:11
+2025-01-07 17:37:38.851 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:37:38.904 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Donouts.Persistance.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.Storage.RetryLimitExceededException: The maximum number of retries (6) was exceeded while executing database operations with 'SqlServerRetryingExecutionStrategy'. See the inner exception for the most recent failure.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:e988846a-9ddd-4e43-8c4b-828e17d551c7
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.EntityFrameworkCore.Storage.RetryLimitExceededException: The maximum number of retries (6) was exceeded while executing database operations with 'SqlServerRetryingExecutionStrategy'. See the inner exception for the most recent failure.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:e988846a-9ddd-4e43-8c4b-828e17d551c7
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-07 17:37:39.073 -06:00 [ERR] The maximum number of retries (6) was exceeded while executing database operations with 'SqlServerRetryingExecutionStrategy'. See the inner exception for the most recent failure.
+2025-01-07 17:37:39.083 -06:00 [INF] Executed action method Donouts.Presentation.Controllers.V1.Donouts.TypeDonouts.TypeDonoutsController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 58612.8563ms.
+2025-01-07 17:37:39.091 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Donouts.TypeDonoutsDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:37:39.116 -06:00 [INF] Executed action Donouts.Presentation.Controllers.V1.Donouts.TypeDonouts.TypeDonoutsController.GetAll (Donouts.Presentation) in 58654.3502ms
+2025-01-07 17:37:39.117 -06:00 [INF] Executed endpoint 'Donouts.Presentation.Controllers.V1.Donouts.TypeDonouts.TypeDonoutsController.GetAll (Donouts.Presentation)'
+2025-01-07 17:37:39.141 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/TypeDonouts/GetAll - - - 500 - application/json;+charset=utf-8 58741.9690ms
+2025-01-07 17:37:59.420 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/favicon.ico - -
+2025-01-07 17:37:59.423 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/favicon.ico - - - 404 0 - 6.5460ms
+2025-01-07 17:38:21.285 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/Activities/GetAll - -
+2025-01-07 17:38:21.302 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/Activities/GetAll - - - 404 0 - 27.3535ms
+2025-01-07 17:39:18.578 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll - -
+2025-01-07 17:39:18.614 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:39:18.642 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 17:39:18.667 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:39:25.336 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-07 17:39:25.338 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-07 17:39:25.598 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:39:25.600 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 0ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+2025-01-07 17:39:25.603 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:39:25.604 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 1023ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+2025-01-07 17:39:26.630 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:39:26.633 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 3133ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+2025-01-07 17:39:29.771 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:39:29.773 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 7272ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+2025-01-07 17:39:37.052 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:39:37.055 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 15408ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+2025-01-07 17:39:52.471 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:39:52.476 -06:00 [INF] A transient exception occurred during execution. The operation will be retried after 30000ms.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+2025-01-07 17:40:22.602 -06:00 [ERR] An error occurred using the connection to database 'Donas' on server 'localhost'.
+2025-01-07 17:40:22.612 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Donouts.Persistance.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.Storage.RetryLimitExceededException: The maximum number of retries (6) was exceeded while executing database operations with 'SqlServerRetryingExecutionStrategy'. See the inner exception for the most recent failure.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.EntityFrameworkCore.Storage.RetryLimitExceededException: The maximum number of retries (6) was exceeded while executing database operations with 'SqlServerRetryingExecutionStrategy'. See the inner exception for the most recent failure.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Donas" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+ClientConnectionId:d1e8b8ff-267c-4b84-a25d-524c339a79c9
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-07 17:40:22.686 -06:00 [ERR] The maximum number of retries (6) was exceeded while executing database operations with 'SqlServerRetryingExecutionStrategy'. See the inner exception for the most recent failure.
+2025-01-07 17:40:22.687 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 64019.141ms.
+2025-01-07 17:40:22.689 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:40:22.692 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 64048.7166ms
+2025-01-07 17:40:22.692 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:40:22.693 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll - - - 500 - application/json;+charset=utf-8 64115.1826ms
+2025-01-07 17:41:33.774 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll - -
+2025-01-07 17:41:33.782 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:41:33.783 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 17:41:33.785 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:41:39.759 -06:00 [INF] Executed DbCommand (79ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 17:41:40.035 -06:00 [ERR] None of the specified endpoints were reachable
+2025-01-07 17:41:40.035 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6250.1295ms.
+2025-01-07 17:41:40.036 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:41:40.036 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 6253.5375ms
+2025-01-07 17:41:40.037 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:41:40.037 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll - - - 500 - application/json;+charset=utf-8 6263.5264ms
+2025-01-07 17:41:43.226 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll - -
+2025-01-07 17:41:43.229 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:41:43.230 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 17:41:43.231 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:41:48.668 -06:00 [INF] Executed DbCommand (27ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 17:41:54.427 -06:00 [ERR] None of the specified endpoints were reachable
+2025-01-07 17:41:54.428 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11194.0075ms.
+2025-01-07 17:41:54.428 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:41:54.429 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 11198.5642ms
+2025-01-07 17:41:54.429 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:41:54.429 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll - - - 500 - application/json;+charset=utf-8 11202.7443ms
+2025-01-07 17:43:46.611 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-01-07 17:43:46.988 -06:00 [INF] Now listening on: https://localhost:7293
+2025-01-07 17:43:46.989 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 17:43:46.990 -06:00 [INF] Hosting environment: Development
+2025-01-07 17:43:46.990 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-01-07 17:43:47.561 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-01-07 17:43:47.687 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 126.9921ms
+2025-01-07 17:43:47.783 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-01-07 17:43:47.856 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.7872ms
+2025-01-07 17:44:48.478 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 17:44:48.574 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:44:48.617 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 17:44:48.648 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:44:52.309 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-07 17:44:52.310 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-07 17:44:52.885 -06:00 [INF] Executed DbCommand (41ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 17:44:52.957 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4302.2607ms.
+2025-01-07 17:44:52.973 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:44:53.016 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 4394.2019ms
+2025-01-07 17:44:53.016 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:44:53.040 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 4562.6291ms
+2025-01-07 17:45:05.908 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 17:45:05.911 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:45:05.913 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 17:45:05.914 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:45:08.423 -06:00 [INF] Executed DbCommand (17ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 17:45:08.425 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2510.5084ms.
+2025-01-07 17:45:08.426 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:45:08.427 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 2513.3104ms
+2025-01-07 17:45:08.427 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:45:08.427 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 2518.9008ms
+2025-01-07 17:53:34.699 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-01-07 17:53:35.114 -06:00 [INF] Now listening on: https://localhost:7293
+2025-01-07 17:53:35.115 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 17:53:35.115 -06:00 [INF] Hosting environment: Development
+2025-01-07 17:53:35.116 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-01-07 17:53:35.842 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-01-07 17:53:36.069 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 228.1587ms
+2025-01-07 17:53:36.179 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-01-07 17:53:36.284 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.7413ms
+2025-01-07 17:54:52.777 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 17:54:52.788 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:54:52.806 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 17:54:52.825 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:54:57.672 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-07 17:54:57.711 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-07 17:54:58.191 -06:00 [INF] Executed DbCommand (43ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 17:54:58.245 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5414.7611ms.
+2025-01-07 17:54:58.255 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:54:58.293 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 5482.7382ms
+2025-01-07 17:54:58.293 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:54:58.308 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 5530.9237ms
+2025-01-07 17:55:06.647 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 17:55:06.652 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:55:06.653 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 17:55:06.653 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 17:55:09.271 -06:00 [INF] Executed DbCommand (99ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 17:55:09.415 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2761.7462ms.
+2025-01-07 17:55:09.416 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 17:55:09.417 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 2764.5925ms
+2025-01-07 17:55:09.418 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 17:55:09.418 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 2770.8391ms
+2025-01-07 18:00:54.650 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 18:00:54.657 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:00:54.659 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 18:00:54.695 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:00:54.771 -06:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 18:00:54.772 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 77.1811ms.
+2025-01-07 18:00:54.779 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 18:00:54.781 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 87.5999ms
+2025-01-07 18:00:54.781 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:00:54.784 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 133.9641ms
+2025-01-07 18:01:35.590 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 18:01:35.596 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:01:35.597 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 18:01:35.599 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:01:35.623 -06:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 18:01:35.627 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.7522ms.
+2025-01-07 18:01:35.646 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 18:01:35.647 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 49.3597ms
+2025-01-07 18:01:35.647 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:01:35.650 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 60.0057ms
+2025-01-07 18:36:39.817 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 18:36:39.820 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:36:39.820 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 18:36:39.822 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:36:40.120 -06:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 18:36:40.126 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 302.4755ms.
+2025-01-07 18:36:40.126 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 18:36:40.127 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 306.7104ms
+2025-01-07 18:36:40.127 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:36:40.128 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 310.7435ms
+2025-01-07 18:38:29.324 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 18:38:29.327 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:38:29.328 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 18:38:29.329 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:38:29.358 -06:00 [INF] Executed DbCommand (14ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 18:38:29.361 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32.1031ms.
+2025-01-07 18:38:29.362 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 18:38:29.365 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 37.0964ms
+2025-01-07 18:38:29.365 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:38:29.366 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 42.2146ms
+2025-01-07 18:38:39.635 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=6 - -
+2025-01-07 18:38:39.637 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:38:39.637 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 18:38:39.638 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:38:39.699 -06:00 [INF] Executed DbCommand (50ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 18:38:39.700 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.4177ms.
+2025-01-07 18:38:39.700 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 18:38:39.700 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 62.7192ms
+2025-01-07 18:38:39.700 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:38:39.701 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=6 - - - 200 - application/json;+charset=utf-8 65.5301ms
+2025-01-07 18:38:59.121 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - -
+2025-01-07 18:38:59.130 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:38:59.131 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 18:38:59.132 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:38:59.153 -06:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 18:38:59.155 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.8618ms.
+2025-01-07 18:38:59.155 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 18:38:59.156 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 24.1937ms
+2025-01-07 18:38:59.156 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:38:59.156 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 35.8664ms
+2025-01-07 18:39:08.942 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=2 - -
+2025-01-07 18:39:08.947 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:39:08.947 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-01-07 18:39:08.948 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:39:08.963 -06:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-01-07 18:39:08.966 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.1969ms.
+2025-01-07 18:39:08.967 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-07 18:39:08.967 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 19.509ms
+2025-01-07 18:39:08.967 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-01-07 18:39:08.968 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=2 - - - 200 - application/json;+charset=utf-8 25.1185ms
+2025-01-07 18:55:24.976 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-01-07 18:55:25.391 -06:00 [INF] Now listening on: https://localhost:7293
+2025-01-07 18:55:25.393 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 18:55:25.393 -06:00 [INF] Hosting environment: Development
+2025-01-07 18:55:25.393 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-01-07 18:55:25.860 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-01-07 18:55:26.079 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 227.8820ms
+2025-01-07 18:55:26.176 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-01-07 18:55:26.265 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.1858ms
+2025-01-07 18:56:30.597 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Documents/DownloadFile?Id=fd9d34c8-a0f2-4e8f-a851-6e1ed68b942a - -
+2025-01-07 18:56:30.621 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation)'
+2025-01-07 18:56:30.652 -06:00 [INF] Route matched with {action = "DownloadFile", controller = "Documents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DownloadFile(System.Guid) on controller Donouts.Controllers.V1.Documents.DocumentsController (Donouts.Presentation).
+2025-01-07 18:56:30.669 -06:00 [INF] Executing action method Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:56:42.385 -06:00 [INF] Executed action Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation) in 11729.6543ms
+2025-01-07 18:56:42.387 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation)'
+2025-01-07 18:56:42.389 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Could not find file '/Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App/wwwroot/files/fd9d34c8-a0f2-4e8f-a851-6e1ed68b942a'.
+   at Donouts.Application.DownloadFile.GetById.DownloadFileByIdHandler.Handle(DownloadFileById request, CancellationToken cancellationToken) in /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.Application/DownloadFile/GetById/DownloadFileByIdHandler.cs:line 44
+   at Donouts.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.Application/Behaviors/ValidationBehavior.cs:line 21
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile(Guid Id) in /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App/Controllers/V1/Documents/DocumentsController.cs:line 14
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-07 18:56:42.396 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Documents/DownloadFile?Id=fd9d34c8-a0f2-4e8f-a851-6e1ed68b942a - - - 500 - text/plain;+charset=utf-8 11799.6067ms
+2025-01-07 18:57:44.083 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-01-07 18:57:44.489 -06:00 [INF] Now listening on: https://localhost:7293
+2025-01-07 18:57:44.490 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 18:57:44.491 -06:00 [INF] Hosting environment: Development
+2025-01-07 18:57:44.491 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-01-07 18:57:45.148 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-01-07 18:57:45.269 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 121.2871ms
+2025-01-07 18:57:45.357 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-01-07 18:57:45.432 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.2527ms
+2025-01-07 18:57:53.823 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Documents/DownloadFile?Id=fd9d34c8-a0f2-4e8f-a851-6e1ed68b942a - -
+2025-01-07 18:57:53.865 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation)'
+2025-01-07 18:57:53.902 -06:00 [INF] Route matched with {action = "DownloadFile", controller = "Documents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DownloadFile(System.Guid) on controller Donouts.Controllers.V1.Documents.DocumentsController (Donouts.Presentation).
+2025-01-07 18:57:53.918 -06:00 [INF] Executing action method Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 18:58:18.505 -06:00 [INF] Executed action method Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 24576.957ms.
+2025-01-07 18:58:18.515 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[Donouts.Application.Dto.DownloadFile.DownloadFileDto, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-07 18:58:18.586 -06:00 [INF] Executed action Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation) in 24631.3999ms
+2025-01-07 18:58:18.586 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation)'
+2025-01-07 18:58:18.587 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Documents/DownloadFile?Id=fd9d34c8-a0f2-4e8f-a851-6e1ed68b942a - - - 200 - application/json;+charset=utf-8 24767.5061ms
+2025-01-07 19:01:02.184 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-01-07 19:01:02.785 -06:00 [INF] Now listening on: https://localhost:7293
+2025-01-07 19:01:02.787 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 19:01:02.787 -06:00 [INF] Hosting environment: Development
+2025-01-07 19:01:02.787 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-01-07 19:01:03.294 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-01-07 19:01:03.596 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 305.8773ms
+2025-01-07 19:01:03.698 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-01-07 19:01:03.772 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.1740ms
+2025-01-07 19:01:23.389 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-01-07 19:01:23.757 -06:00 [INF] Now listening on: https://localhost:7293
+2025-01-07 19:01:23.758 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 19:01:23.758 -06:00 [INF] Hosting environment: Development
+2025-01-07 19:01:23.758 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-01-07 19:01:23.913 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-01-07 19:01:24.163 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 250.4345ms
+2025-01-07 19:01:24.262 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-01-07 19:01:24.338 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.9627ms
+2025-01-07 19:02:14.281 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Documents/DownloadFile?Id=fd9d34c8-a0f2-4e8f-a851-6e1ed68b942a - -
+2025-01-07 19:02:14.312 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation)'
+2025-01-07 19:02:14.352 -06:00 [INF] Route matched with {action = "DownloadFile", controller = "Documents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DownloadFile(System.Guid) on controller Donouts.Controllers.V1.Documents.DocumentsController (Donouts.Presentation).
+2025-01-07 19:02:14.366 -06:00 [INF] Executing action method Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation) - Validation state: "Valid"
+2025-01-07 19:02:23.521 -06:00 [INF] Executed action method Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9155.1834ms.
+2025-01-07 19:02:23.533 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[Donouts.Application.Dto.DownloadFile.DownloadFileDto, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-07 19:02:23.556 -06:00 [INF] Executed action Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation) in 9209.4297ms
+2025-01-07 19:02:23.556 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Documents.DocumentsController.DownloadFile (Donouts.Presentation)'
+2025-01-07 19:02:23.557 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Documents/DownloadFile?Id=fd9d34c8-a0f2-4e8f-a851-6e1ed68b942a - - - 200 - application/json;+charset=utf-8 9285.0053ms

@@ -1,0 +1,578 @@
+2025-05-23 11:07:02.572 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 11:07:03.516 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 11:07:03.517 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 11:07:03.518 -06:00 [INF] Hosting environment: Development
+2025-05-23 11:07:03.518 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 11:07:04.162 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 11:07:04.639 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 452.5757ms
+2025-05-23 11:07:04.763 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 11:07:04.988 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.9815ms
+2025-05-23 11:07:53.436 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 11:07:53.854 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 11:07:53.855 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 11:07:53.855 -06:00 [INF] Hosting environment: Development
+2025-05-23 11:07:53.856 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 11:07:54.330 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 11:07:54.560 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 230.7347ms
+2025-05-23 11:07:54.692 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 11:07:54.789 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.7468ms
+2025-05-23 11:08:23.512 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 11:08:23.557 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:08:23.588 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-05-23 11:08:23.609 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 11:08:24.770 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 11:08:24.771 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 11:08:25.248 -06:00 [INF] Executed DbCommand (141ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-05-23 11:08:25.354 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1737.688ms.
+2025-05-23 11:08:25.364 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 11:08:25.401 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 1809.0217ms
+2025-05-23 11:08:25.402 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:08:25.416 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 1904.1006ms
+2025-05-23 11:09:49.432 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 11:09:49.817 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 11:09:49.818 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 11:09:49.819 -06:00 [INF] Hosting environment: Development
+2025-05-23 11:09:49.819 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 11:09:50.249 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 11:09:50.598 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 350.6312ms
+2025-05-23 11:09:50.686 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 11:09:50.767 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.3363ms
+2025-05-23 11:10:10.002 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 11:10:10.024 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:10:10.059 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-05-23 11:10:10.081 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 11:10:11.476 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 11:10:11.477 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 11:10:11.854 -06:00 [INF] Executed DbCommand (44ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-05-23 11:10:11.921 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1834.8397ms.
+2025-05-23 11:10:11.930 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 11:10:11.969 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 1905.4534ms
+2025-05-23 11:10:11.970 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:10:11.983 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 1982.8594ms
+2025-05-23 11:13:01.703 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 11:13:02.149 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 11:13:02.151 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 11:13:02.151 -06:00 [INF] Hosting environment: Development
+2025-05-23 11:13:02.152 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 11:13:02.565 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 11:13:02.707 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 142.4737ms
+2025-05-23 11:13:02.844 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 11:13:02.921 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.5368ms
+2025-05-23 11:13:07.811 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 11:13:07.819 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:13:07.848 -06:00 [INF] Route matched with {action = "GetAll", controller = "Activities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.Activities.Queries.GetAll.GetAllActivities) on controller Donouts.Controllers.V1.Activities.ActivitiesController (Donouts.Presentation).
+2025-05-23 11:13:07.879 -06:00 [INF] Executing action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 11:13:08.939 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 11:13:08.939 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 11:13:09.308 -06:00 [INF] Executed DbCommand (42ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CreatedAt], [t].[ModifiedAt], [t].[Id], [t].[Name], [t].[Visible]
+FROM (
+    SELECT [a].[Id], [a].[CreatedAt], [a].[ModifiedAt], [a].[Name], [a].[Visible]
+    FROM [ACTIVIDADES] AS [a]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-05-23 11:13:09.359 -06:00 [INF] Executed action method Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1473.9531ms.
+2025-05-23 11:13:09.371 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Activities.ActivitiesDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 11:13:09.440 -06:00 [INF] Executed action Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation) in 1586.0032ms
+2025-05-23 11:13:09.442 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.Activities.ActivitiesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:13:09.471 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/Activities/GetAll?PageNumber=1&PageSize=1 - - - 200 - application/json;+charset=utf-8 1659.5479ms
+2025-05-23 11:37:28.700 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 11:37:29.142 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 11:37:29.144 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 11:37:29.144 -06:00 [INF] Hosting environment: Development
+2025-05-23 11:37:29.144 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 11:37:29.487 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 11:37:29.954 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 467.7516ms
+2025-05-23 11:37:30.110 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 11:37:30.192 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.1844ms
+2025-05-23 11:37:40.009 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=10 - -
+2025-05-23 11:37:40.041 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:37:40.082 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 11:37:40.105 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 11:37:53.699 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13582.888ms.
+2025-05-23 11:37:53.712 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 11:37:53.729 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) in 13643.7618ms
+2025-05-23 11:37:53.730 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 11:37:53.735 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=10 - - - 500 - application/json;+charset=utf-8 13726.7362ms
+2025-05-23 18:59:59.242 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 18:59:59.854 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 18:59:59.856 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 18:59:59.857 -06:00 [INF] Hosting environment: Development
+2025-05-23 18:59:59.857 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:00:00.676 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:00:01.172 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 512.1753ms
+2025-05-23 19:00:01.422 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:00:01.570 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.7507ms
+2025-05-23 19:03:20.842 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:03:20.895 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:03:20.930 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:03:20.951 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:03:30.496 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9537.8404ms.
+2025-05-23 19:03:30.515 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 19:03:30.532 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) in 9598.4361ms
+2025-05-23 19:03:30.532 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:03:30.536 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - - - 500 - application/json;+charset=utf-8 9695.0434ms
+2025-05-23 19:07:12.740 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:07:13.191 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:07:13.192 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:07:13.193 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:07:13.214 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:07:13.915 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:07:14.374 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 458.3600ms
+2025-05-23 19:07:14.523 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:07:14.674 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.3782ms
+2025-05-23 19:07:22.008 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:07:22.029 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:07:22.066 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:07:22.086 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:11:43.304 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:11:43.735 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:11:43.737 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:11:43.737 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:11:43.737 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:11:44.430 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:11:44.899 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 471.8677ms
+2025-05-23 19:11:45.015 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:11:45.110 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.6397ms
+2025-05-23 19:11:50.237 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:11:50.250 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:11:50.280 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:11:50.300 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:13:02.023 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 71712.7148ms.
+2025-05-23 19:13:02.033 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 19:13:02.054 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) in 71765.7342ms
+2025-05-23 19:13:02.054 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:13:02.086 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - - - 500 - application/json;+charset=utf-8 71846.5128ms
+2025-05-23 19:13:21.501 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:13:21.510 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:13:21.512 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:13:21.517 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:13:52.227 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:13:52.660 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:13:52.662 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:13:52.662 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:13:52.662 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:13:53.169 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:13:53.426 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 257.2025ms
+2025-05-23 19:13:53.541 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:13:53.627 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.4582ms
+2025-05-23 19:13:56.334 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:13:56.346 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:13:56.387 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:13:56.410 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:15:48.629 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:15:49.053 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:15:49.054 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:15:49.055 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:15:49.055 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:15:49.469 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:15:49.901 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 433.8605ms
+2025-05-23 19:15:49.989 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:15:50.076 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.4597ms
+2025-05-23 19:16:23.323 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:16:23.350 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:16:23.413 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:16:23.437 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:16:27.133 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 19:16:27.135 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-23 19:16:27.593 -06:00 [INF] Executed DbCommand (53ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[User], [t].[Content], [t].[CreatedAt]
+FROM (
+    SELECT [m].[Id], [m].[Content], [m].[CreatedAt], [m].[User]
+    FROM [MessagesChat] AS [m]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-05-23 19:16:32.516 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9066.6108ms.
+2025-05-23 19:16:32.531 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 19:16:32.563 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) in 9145.2894ms
+2025-05-23 19:16:32.564 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:16:32.569 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-23 19:16:32.591 -06:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-05-23 19:16:32.595 -06:00 [ERR] Connection id "0HNCQC22CSSN4", Request id "0HNCQC22CSSN4:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-05-23 19:16:32.612 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - - - 204 - application/json;+charset=utf-8 9288.9999ms
+2025-05-23 19:17:06.296 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:17:06.307 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:17:06.308 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:17:06.310 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:17:09.206 -06:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[User], [t].[Content], [t].[CreatedAt]
+FROM (
+    SELECT [m].[Id], [m].[Content], [m].[CreatedAt], [m].[User]
+    FROM [MessagesChat] AS [m]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-05-23 19:17:09.207 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2896.7605ms.
+2025-05-23 19:17:09.208 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 19:17:09.209 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) in 2900.5715ms
+2025-05-23 19:17:09.209 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:17:09.210 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-23 19:17:09.212 -06:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-05-23 19:17:09.212 -06:00 [ERR] Connection id "0HNCQC22CSSN5", Request id "0HNCQC22CSSN5:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-05-23 19:17:09.214 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - - - 204 - application/json;+charset=utf-8 2918.7159ms
+2025-05-23 19:17:50.983 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - -
+2025-05-23 19:17:50.991 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:17:50.992 -06:00 [INF] Route matched with {action = "GetAll", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll(Donouts.Application.MessageMQ.Queries.GetAll.GetAllChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:17:50.993 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:17:52.832 -06:00 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[User], [t].[Content], [t].[CreatedAt]
+FROM (
+    SELECT [m].[Id], [m].[Content], [m].[CreatedAt], [m].[User]
+    FROM [MessagesChat] AS [m]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+ORDER BY [t].[CreatedAt]
+2025-05-23 19:17:58.924 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7926.4199ms.
+2025-05-23 19:17:58.926 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[System.Collections.Generic.List`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 19:17:58.929 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation) in 7936.7593ms
+2025-05-23 19:17:58.929 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetAll (Donouts.Presentation)'
+2025-05-23 19:17:58.930 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-23 19:17:58.933 -06:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-05-23 19:17:58.933 -06:00 [ERR] Connection id "0HNCQC22CSSN6", Request id "0HNCQC22CSSN6:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-05-23 19:17:58.937 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetAll?PageNumber=1&PageSize=1 - - - 204 - application/json;+charset=utf-8 7953.7278ms
+2025-05-23 19:38:06.540 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:38:07.005 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:38:07.007 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:38:07.007 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:38:07.007 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:38:07.385 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:38:07.832 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 447.4254ms
+2025-05-23 19:38:08.087 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:38:08.204 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 117.4186ms
+2025-05-23 19:38:17.140 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - -
+2025-05-23 19:38:17.162 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:38:17.206 -06:00 [INF] Route matched with {action = "GetById", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetById(Donouts.Application.MessageMQ.Queries.GetByIdChatMessages.GetByIdChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:38:17.225 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation) in 16.2933ms
+2025-05-23 19:38:17.228 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:38:17.230 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Could not create an instance of type 'Donouts.Application.MessageMQ.Queries.GetByIdChatMessages.GetByIdChatMessages'. Model bound complex types must not be abstract or value types and must have a parameterless constructor. Record types must have a single primary constructor. Alternatively, give the 'request' parameter a non-null default value.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.CreateModel(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.BindModelCoreAsync(ModelBindingContext bindingContext, Int32 propertyData)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-23 19:38:17.272 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - - - 500 - text/plain;+charset=utf-8 132.1874ms
+2025-05-23 19:38:43.920 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:38:44.356 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:38:44.357 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:38:44.358 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:38:44.358 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:38:44.816 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:38:45.080 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 272.2684ms
+2025-05-23 19:38:45.168 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:38:45.253 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.1412ms
+2025-05-23 19:38:48.299 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - -
+2025-05-23 19:38:48.314 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:38:48.349 -06:00 [INF] Route matched with {action = "GetById", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetById(Donouts.Application.MessageMQ.Queries.GetByIdChatMessages.GetByIdChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:38:48.372 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:38:49.803 -06:00 [INF] Executed DbCommand (49ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[User], [m].[Content], [m].[CreatedAt]
+FROM [MessagesChat] AS [m]
+WHERE [m].[Id] = @__id_0
+2025-05-23 19:38:49.837 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1459.5377ms.
+2025-05-23 19:38:49.847 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-23 19:38:49.868 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation) in 1514.2235ms
+2025-05-23 19:38:49.869 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:38:49.883 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - - - 200 - application/json;+charset=utf-8 1584.2757ms
+2025-05-23 19:39:24.855 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - -
+2025-05-23 19:39:24.863 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:39:24.865 -06:00 [INF] Route matched with {action = "GetById", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetById(Donouts.Application.MessageMQ.Queries.GetByIdChatMessages.GetByIdChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:39:24.868 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:39:26.920 -06:00 [INF] Executed DbCommand (37ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[User], [m].[Content], [m].[CreatedAt]
+FROM [MessagesChat] AS [m]
+WHERE [m].[Id] = @__id_0
+2025-05-23 19:39:48.707 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:39:49.141 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:39:49.144 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:39:49.144 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:39:49.144 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:39:49.824 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:39:49.978 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 154.9934ms
+2025-05-23 19:39:50.147 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:39:50.239 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.3817ms
+2025-05-23 19:40:39.374 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - -
+2025-05-23 19:40:39.391 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:40:39.431 -06:00 [INF] Route matched with {action = "GetById", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetById(Donouts.Application.MessageMQ.Queries.GetByIdChatMessages.GetByIdChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:40:39.451 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:40:43.203 -06:00 [INF] Executed DbCommand (39ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[User], [m].[Content], [m].[CreatedAt]
+FROM [MessagesChat] AS [m]
+WHERE [m].[Id] = @__id_0
+2025-05-23 19:41:20.165 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-05-23 19:41:20.638 -06:00 [INF] Now listening on: https://localhost:7293
+2025-05-23 19:41:20.640 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 19:41:20.640 -06:00 [INF] Hosting environment: Development
+2025-05-23 19:41:20.640 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/Documentos - Mac mini de Jeronimo (5)/GitHub/Donas/src/DevJJGR.App
+2025-05-23 19:41:21.013 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2025-05-23 19:41:21.158 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 145.3285ms
+2025-05-23 19:41:21.284 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2025-05-23 19:41:21.361 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.4759ms
+2025-05-23 19:41:23.928 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - -
+2025-05-23 19:41:23.936 -06:00 [INF] Executing endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:41:23.962 -06:00 [INF] Route matched with {action = "GetById", controller = "ChatMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetById(Donouts.Application.MessageMQ.Queries.GetByIdChatMessages.GetByIdChatMessages) on controller Donouts.Controllers.V1.ChatMessages.ChatMessagesController (Donouts.Presentation).
+2025-05-23 19:41:23.984 -06:00 [INF] Executing action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation) - Validation state: "Valid"
+2025-05-23 19:41:27.455 -06:00 [INF] Executed DbCommand (39ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[User], [m].[Content], [m].[CreatedAt]
+FROM [MessagesChat] AS [m]
+WHERE [m].[Id] = @__id_0
+2025-05-23 19:41:30.040 -06:00 [INF] Executed action method Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6047.1227ms.
+2025-05-23 19:41:30.055 -06:00 [INF] Executing ObjectResult, writing value of type 'DonoutsCore.Common.Models.ResponseDto`1[[Donouts.Application.Dto.Messages.MessagesChatDTO, Donouts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-23 19:41:30.090 -06:00 [INF] Executed action Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation) in 6123.3471ms
+2025-05-23 19:41:30.092 -06:00 [INF] Executed endpoint 'Donouts.Controllers.V1.ChatMessages.ChatMessagesController.GetById (Donouts.Presentation)'
+2025-05-23 19:41:30.101 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-23 19:41:30.124 -06:00 [WRN] The response has already started, the error page middleware will not be executed.
+2025-05-23 19:41:30.125 -06:00 [ERR] Connection id "0HNCQCGAQQ29E", Request id "0HNCQCGAQQ29E:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-05-23 19:41:30.142 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/api/v1/ChatMessages/GetById?Id=1 - - - 204 - application/json;+charset=utf-8 6213.9297ms

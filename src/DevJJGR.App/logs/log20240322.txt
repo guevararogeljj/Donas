@@ -1,0 +1,21 @@
+2024-03-22 21:24:57.707 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-03-22 21:24:58.214 -06:00 [INF] Now listening on: https://localhost:7293
+2024-03-22 21:24:58.215 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-22 21:24:58.215 -06:00 [INF] Hosting environment: Development
+2024-03-22 21:24:58.215 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.App
+2024-03-22 21:25:00.930 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/index.html - -
+2024-03-22 21:25:01.063 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/index.html - - - 200 - text/html;charset=utf-8 134.9545ms
+2024-03-22 21:25:01.109 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/swagger-ui-bundle.js - -
+2024-03-22 21:25:01.114 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/swagger-ui.css - -
+2024-03-22 21:25:01.249 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/swagger-ui-standalone-preset.js - -
+2024-03-22 21:25:01.258 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-22 21:25:01.258 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-22 21:25:01.258 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/swagger-ui.css - - - 200 143632 text/css 143.8746ms
+2024-03-22 21:25:01.258 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 9.1840ms
+2024-03-22 21:25:01.268 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-22 21:25:01.272 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 163.0550ms
+2024-03-22 21:25:01.319 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - -
+2024-03-22 21:25:01.329 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7293/swagger/favicon-32x32.png - -
+2024-03-22 21:25:01.329 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-22 21:25:01.330 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/favicon-32x32.png - - - 200 628 image/png 0.6413ms
+2024-03-22 21:25:01.400 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7293/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.5605ms

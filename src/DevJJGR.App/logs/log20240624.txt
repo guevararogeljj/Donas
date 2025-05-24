@@ -1,0 +1,48 @@
+2024-06-24 20:04:48.449 -06:00 [INF] User profile is available. Using '/Users/jeronimoguevararogel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-06-24 20:04:48.750 -06:00 [INF] Now listening on: https://localhost:7293
+2024-06-24 20:04:48.751 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-24 20:04:48.751 -06:00 [INF] Hosting environment: Development
+2024-06-24 20:04:48.751 -06:00 [INF] Content root path: /Users/jeronimoguevararogel/Documents/GitHub/Donas/src/DevJJGR.App
+2024-06-24 20:04:50.022 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/swagger - null null
+2024-06-24 20:04:50.060 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/swagger - 301 0 null 38.7775ms
+2024-06-24 20:04:50.063 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/swagger/index.html - null null
+2024-06-24 20:04:50.141 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/swagger/index.html - 200 null text/html;charset=utf-8 77.6594ms
+2024-06-24 20:04:50.143 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/swagger/swagger-ui.css - null null
+2024-06-24 20:04:50.169 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/swagger/swagger-ui-bundle.js - null null
+2024-06-24 20:04:50.143 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-24 20:04:50.309 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-24 20:04:50.310 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/swagger/swagger-ui.css - 200 143632 text/css 166.5967ms
+2024-06-24 20:04:50.508 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-24 20:04:50.509 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/swagger/swagger-ui-standalone-preset.js - 200 337162 text/javascript 365.3439ms
+2024-06-24 20:04:50.518 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-24 20:04:50.518 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/swagger/swagger-ui-bundle.js - 200 1092889 text/javascript 349.8382ms
+2024-06-24 20:04:50.573 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/swagger/v1/swagger.json - null null
+2024-06-24 20:04:50.606 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/swagger/favicon-32x32.png - null null
+2024-06-24 20:04:50.607 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-24 20:04:50.608 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/swagger/favicon-32x32.png - 200 628 image/png 2.492ms
+2024-06-24 20:04:50.694 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.8014ms
+2024-06-24 20:05:00.179 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/health - null null
+2024-06-24 20:05:00.188 -06:00 [INF] Executing endpoint 'Health checks'
+2024-06-24 20:05:14.885 -06:00 [ERR] Health check sqlserver with status "Unhealthy" completed after 14686.2958ms with message 'null'
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server: Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at HealthChecks.SqlServer.SqlServerHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /_/src/HealthChecks.SqlServer/SqlServerHealthCheck.cs:line 28
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2024-06-24 20:05:14.907 -06:00 [INF] Executed endpoint 'Health checks'
+2024-06-24 20:05:14.908 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/health - 503 null text/plain 14729.6226ms
+2024-06-24 20:05:14.973 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7293/favicon.ico - null null
+2024-06-24 20:05:15.000 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7293/favicon.ico - 404 0 null 26.5713ms
+2024-06-24 20:05:15.000 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7293/favicon.ico, Response status code: 404
